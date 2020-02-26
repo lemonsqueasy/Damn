@@ -91,7 +91,7 @@ namespace video
 	but the content needs to be recreated by the application. */
 	enum E_LOST_RESOURCE
 	{
-		//! The whole device/driver is lost
+		//! The whole irrlichtDevice/driver is lost
 		ELR_DEVICE = 1,
 		//! All texture are lost, rare problem
 		ELR_TEXTURES = 2,
@@ -1090,7 +1090,7 @@ namespace video
 		//! \return An index to the light, or -1 if an error occurs
 		virtual s32 addDynamicLight(const SLight& light) =0;
 
-		//! Returns the maximal amount of dynamic lights the device can handle
+		//! Returns the maximal amount of dynamic lights the irrlichtDevice can handle
 		/** \return Maximal amount of dynamic lights. */
 		virtual u32 getMaximalDynamicLightAmount() const =0;
 
@@ -1133,7 +1133,7 @@ namespace video
 		virtual void addExternalImageWriter(IImageWriter* writer) =0;
 
 		//! Returns the maximum amount of primitives
-		/** (mostly vertices) which the device is able to render with
+		/** (mostly vertices) which the irrlichtDevice is able to render with
 		one drawVertexPrimitiveList call.
 		\return Maximum amount of primitives. */
 		virtual u32 getMaximalPrimitiveCount() const =0;
@@ -1265,12 +1265,12 @@ namespace video
 		Usually, there is no need to call this method. */
 		virtual void OnResize(const core::dimension2d<u32>& size) =0;
 
-		//! Adds a new material renderer to the video device.
+		//! Adds a new material renderer to the video irrlichtDevice.
 		/** Use this method to extend the VideoDriver with new material
 		types. To extend the engine using this method do the following:
 		Derive a class from IMaterialRenderer and override the methods
 		you need. For setting the right renderstates, you can try to
-		get a pointer to the real rendering device using
+		get a pointer to the real rendering irrlichtDevice using
 		IVideoDriver::getExposedVideoData(). Add your class with
 		IVideoDriver::addMaterialRenderer(). To use an object being
 		displayed with your new material, set the MaterialType member of
@@ -1284,7 +1284,7 @@ namespace video
 		\return The number of the material type which can be set in
 		SMaterial::MaterialType to use the renderer. -1 is returned if
 		an error occured. For example if you tried to add an material
-		renderer to the software renderer or the null device, which do
+		renderer to the software renderer or the null irrlichtDevice, which do
 		not accept material renderers. */
 		virtual s32 addMaterialRenderer(IMaterialRenderer* renderer, const c8* name =0) =0;
 
@@ -1344,7 +1344,7 @@ namespace video
 		//! Returns driver and operating system specific data about the IVideoDriver.
 		/** This method should only be used if the engine should be
 		extended without having to modify the source of the engine.
-		\return Collection of device dependent pointers. */
+		\return Collection of irrlichtDevice dependent pointers. */
 		virtual const SExposedVideoData& getExposedVideoData() =0;
 
 		//! Get type of video driver

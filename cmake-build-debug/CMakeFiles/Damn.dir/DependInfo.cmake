@@ -4,10 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/LEventReceiver.cpp" "/Users/monle/Documents/OSXProjects/CLionProjects/Damn/cmake-build-debug/CMakeFiles/Damn.dir/source/LEventReceiver.cpp.o"
-  "/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/globals/Globals.cpp" "/Users/monle/Documents/OSXProjects/CLionProjects/Damn/cmake-build-debug/CMakeFiles/Damn.dir/source/globals/Globals.cpp.o"
+  "/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/Globals/Globals.cpp" "/Users/monle/Documents/OSXProjects/CLionProjects/Damn/cmake-build-debug/CMakeFiles/Damn.dir/source/Globals/Globals.cpp.o"
+  "/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/LEventReceiver/LEventReceiver.cpp" "/Users/monle/Documents/OSXProjects/CLionProjects/Damn/cmake-build-debug/CMakeFiles/Damn.dir/source/LEventReceiver/LEventReceiver.cpp.o"
+  "/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/Scenes/LMap.cpp" "/Users/monle/Documents/OSXProjects/CLionProjects/Damn/cmake-build-debug/CMakeFiles/Damn.dir/source/Scenes/LMap.cpp.o"
+  "/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/Scenes/LSkyBox.cpp" "/Users/monle/Documents/OSXProjects/CLionProjects/Damn/cmake-build-debug/CMakeFiles/Damn.dir/source/Scenes/LSkyBox.cpp.o"
+  "/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/lemon_functions/lemon_functions.cpp" "/Users/monle/Documents/OSXProjects/CLionProjects/Damn/cmake-build-debug/CMakeFiles/Damn.dir/source/lemon_functions/lemon_functions.cpp.o"
   "/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/main.cpp" "/Users/monle/Documents/OSXProjects/CLionProjects/Damn/cmake-build-debug/CMakeFiles/Damn.dir/source/main.cpp.o"
-  "/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/tool_functions/tool_functions.cpp" "/Users/monle/Documents/OSXProjects/CLionProjects/Damn/cmake-build-debug/CMakeFiles/Damn.dir/source/tool_functions/tool_functions.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

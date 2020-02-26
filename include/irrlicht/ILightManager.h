@@ -16,7 +16,7 @@ namespace scene
 	class ILightSceneNode;
 
 	//! ILightManager provides an interface for user applications to manipulate the list of lights in the scene.
-	/** The light list can be trimmed or re-ordered before device/ hardware
+	/** The light list can be trimmed or re-ordered before irrlichtDevice/ hardware
 	lights are created, and/or individual lights can be switched on and off
 	before or after each scene node is rendered. It is assumed that the
 	ILightManager implementation will store any data that it wishes to
@@ -26,10 +26,10 @@ namespace scene
 	{
 	public:
 		//! Called after the scene's light list has been built, but before rendering has begun.
-		/** As actual device/hardware lights are not created until the
+		/** As actual irrlichtDevice/hardware lights are not created until the
 		ESNRP_LIGHT render pass, this provides an opportunity for the
 		light manager to trim or re-order the light list, before any
-		device/hardware lights have actually been created.
+		irrlichtDevice/hardware lights have actually been created.
 		\param lightList: the Scene Manager's light list, which
 		the light manager may modify. This reference will remain valid
 		until OnPostRender().

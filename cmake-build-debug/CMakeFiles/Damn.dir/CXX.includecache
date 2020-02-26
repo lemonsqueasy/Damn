@@ -1620,41 +1620,29 @@ dimension2d.h
 irrMath.h
 ../include/irrlicht/irrMath.h
 
-/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/LEventReceiver.cpp
-LEventReceiver.h
-/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/LEventReceiver.h
+/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/Globals/Globals.h
+irrlicht/irrlicht.h
+-
+../LEventReceiver/LEventReceiver.h
+/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/LEventReceiver/LEventReceiver.h
 
-/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/LEventReceiver.h
+/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/LEventReceiver/LEventReceiver.h
 irrlicht/irrlicht.h
 -
 
-/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/globals/Globals.cpp
-iostream
--
-Globals.h
-/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/globals/Globals.h
+/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/Scenes/LSkyBox.cpp
+LSkyBox.h
+/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/Scenes/LSkyBox.h
 
-/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/globals/Globals.h
+/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/Scenes/LSkyBox.h
 irrlicht/irrlicht.h
 -
-../LEventReceiver.h
-/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/LEventReceiver.h
+../Globals/Globals.h
+/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/Globals/Globals.h
+../lemon_functions/lemon_functions.h
+/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/lemon_functions/lemon_functions.h
 
-/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/main.cpp
-irrlicht/irrlicht.h
--
-QtCore/QtCore
--
-tool_functions/tool_functions.h
-/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/tool_functions/tool_functions.h
-globals/Globals.h
-/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/globals/Globals.h
-
-/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/tool_functions/tool_functions.cpp
-tool_functions.h
-/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/tool_functions/tool_functions.h
-
-/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/tool_functions/tool_functions.h
+/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/lemon_functions/lemon_functions.h
 iostream
 -
 mach-o/dyld.h

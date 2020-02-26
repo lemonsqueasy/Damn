@@ -31,7 +31,7 @@ namespace video
 		//! Can the driver update mip maps automatically?
 		EVDF_MIP_MAP_AUTO_UPDATE,
 
-		//! Are stencilbuffers switched on and does the device support stencil buffers?
+		//! Are stencilbuffers switched on and does the irrlichtDevice support stencil buffers?
 		EVDF_STENCIL_BUFFER,
 
 		//! Is Vertex Shader 1.1 supported?

@@ -79,8 +79,8 @@ namespace irr
 			return *this;
 		}
 
-		//! Type of the device.
-		/** This setting decides the windowing system used by the device, most device types are native
+		//! Type of the irrlichtDevice.
+		/** This setting decides the windowing system used by the irrlichtDevice, most irrlichtDevice types are native
 		to a specific operating system and so may not be available.
 		EIDT_WIN32 is only available on Windows desktops,
 		EIDT_WINCE is only available on Windows mobile devices,
@@ -88,7 +88,7 @@ namespace irr
 		EIDT_X11 is available on Linux, Solaris, BSD and other operating systems which use X11,
 		EIDT_SDL is available on most systems if compiled in,
 		EIDT_CONSOLE is usually available but can only render to text,
-		EIDT_BEST will select the best available device for your operating system.
+		EIDT_BEST will select the best available irrlichtDevice for your operating system.
 		Default: EIDT_BEST. */
 		E_DEVICE_TYPE DeviceType;
 
@@ -108,14 +108,14 @@ namespace irr
 		//! Minimum Bits per pixel of the depth buffer. Default: 16.
 		u8 ZBufferBits;
 
-		//! Should be set to true if the device should run in fullscreen.
-		/** Otherwise the device runs in windowed mode. Default: false. */
+		//! Should be set to true if the irrlichtDevice should run in fullscreen.
+		/** Otherwise the irrlichtDevice runs in windowed mode. Default: false. */
 		bool Fullscreen;
 
 		//! Specifies if the stencil buffer should be enabled.
 		/** Set this to true, if you want the engine be able to draw
 		stencil buffer shadows. Note that not all drivers are able to
-		use the stencil buffer, hence it can be ignored during device
+		use the stencil buffer, hence it can be ignored during irrlichtDevice
 		creation. Without the stencil buffer no shadows will be drawn.
 		Default: false. */
 		bool Stencilbuffer;
@@ -126,7 +126,7 @@ namespace irr
 		Default: false */
 		bool Vsync;
 
-		//! Specifies if the device should use fullscreen anti aliasing
+		//! Specifies if the irrlichtDevice should use fullscreen anti aliasing
 		/** Makes sharp/pixelated edges softer, but requires more
 		performance. Also, 2D elements might look blurred with this
 		switched on. The resulting rendering quality also depends on
@@ -136,7 +136,7 @@ namespace irr
 		be a good idea to make it possible to switch this option off
 		again by the user.
 		The value is the maximal antialiasing factor requested for
-		the device. The cretion method will automatically try smaller
+		the irrlichtDevice. The cretion method will automatically try smaller
 		values if no window can be created with the given value.
 		Value one is usually the same as 0 (disabled), but might be a
 		special value on some platforms. On D3D devices it maps to
@@ -147,7 +147,7 @@ namespace irr
 		//! Flag to enable proper sRGB and linear color handling
 		/** In most situations, it is desireable to have the color handling in
 		non-linear sRGB color space, and only do the intermediate color
-		calculations in linear RGB space. If this flag is enabled, the device and
+		calculations in linear RGB space. If this flag is enabled, the irrlichtDevice and
 		driver try to assure that all color input and output are color corrected
 		and only the internal color representation is linear. This means, that
 		the color output is properly gamma-adjusted to provide the brighter
@@ -162,7 +162,7 @@ namespace irr
 		//! Whether the main framebuffer uses an alpha channel.
 		/** In some situations it might be desireable to get a color
 		buffer with an alpha channel, e.g. when rendering into a
-		transparent window or overlay. If this flag is set the device
+		transparent window or overlay. If this flag is set the irrlichtDevice
 		tries to create a framebuffer with alpha channel.
 		If this flag is set, only color buffers with alpha channel
 		are considered. Otherwise, it depends on the actual hardware
@@ -178,22 +178,22 @@ namespace irr
 		single buffers. Default value: true */
 		bool Doublebuffer;
 
-		//! Specifies if the device should ignore input events
+		//! Specifies if the irrlichtDevice should ignore input events
 		/** This is only relevant when using external I/O handlers.
 		External windows need to take care of this themselves.
 		Currently only supported by X11.
 		Default value: false */
 		bool IgnoreInput;
 
-		//! Specifies if the device should use stereo buffers
+		//! Specifies if the irrlichtDevice should use stereo buffers
 		/** Some high-end gfx cards support two framebuffers for direct
 		support of stereoscopic output devices. If this flag is set the
-		device tries to create a stereo context.
+		irrlichtDevice tries to create a stereo context.
 		Currently only supported by OpenGL.
 		Default value: false */
 		bool Stereobuffer;
 
-		//! Specifies if the device should use high precision FPU setting
+		//! Specifies if the irrlichtDevice should use high precision FPU setting
 		/** This is only relevant for DirectX Devices, which switch to
 		low FPU precision by default for performance reasons. However,
 		this may lead to problems with the other computations of the
@@ -215,7 +215,7 @@ namespace irr
 		have to draw Irrlicht on your own. You can use this loop, as
 		usual:
 		\code
-		while (device->run())
+		while (irrlichtDevice->run())
 		{
 			driver->beginScene(true, true, 0);
 			smgr->drawAll();
@@ -231,7 +231,7 @@ namespace irr
 		using the window messages, DirectInput, or whatever. Also,
 		you'll have to increment the Irrlicht timer.
 		An alternative, own message dispatching loop without
-		device->run() would look like this:
+		irrlichtDevice->run() would look like this:
 		\code
 		MSG msg;
 		while (true)
@@ -246,7 +246,7 @@ namespace irr
 			}
 
 			// increase virtual timer time
-			device->getTimer()->tick();
+			irrlichtDevice->getTimer()->tick();
 
 			// draw engine picture
 			driver->beginScene(true, true, 0);
@@ -261,7 +261,7 @@ namespace irr
 		//! Specifies the logging level used in the logging interface.
 		/** The default value is ELL_INFORMATION. You can access the ILogger interface
 		later on from the IrrlichtDevice with getLogger() and set another level.
-		But if you need more or less logging information already from device creation,
+		But if you need more or less logging information already from irrlichtDevice creation,
 		then you have to change it here.
 		*/
 		ELOG_LEVEL LoggingLevel;

@@ -28,11 +28,11 @@
 //! Note: PLATFORM defines the OS specific layer, API can group several platforms
 
 //! DEVICE is the windowing system used, several PLATFORMs support more than one DEVICE
-//! Irrlicht can be compiled with more than one device
-//! _IRR_COMPILE_WITH_WINDOWS_DEVICE_ for Windows API based device
-//! _IRR_COMPILE_WITH_WINDOWS_CE_DEVICE_ for Windows CE API based device
+//! Irrlicht can be compiled with more than one irrlichtDevice
+//! _IRR_COMPILE_WITH_WINDOWS_DEVICE_ for Windows API based irrlichtDevice
+//! _IRR_COMPILE_WITH_WINDOWS_CE_DEVICE_ for Windows CE API based irrlichtDevice
 //! _IRR_COMPILE_WITH_OSX_DEVICE_ for Cocoa native windowing on OSX
-//! _IRR_COMPILE_WITH_X11_DEVICE_ for Linux X11 based device
+//! _IRR_COMPILE_WITH_X11_DEVICE_ for Linux X11 based irrlichtDevice
 //! _IRR_COMPILE_WITH_SDL_DEVICE_ for platform independent SDL framework
 //! _IRR_COMPILE_WITH_CONSOLE_DEVICE_ for no windowing system, used as a fallback
 //! _IRR_COMPILE_WITH_FB_DEVICE_ for framebuffer systems
@@ -44,13 +44,13 @@
 //! Example: NO_IRR_COMPILE_WITH_X11_ would disable X11
 
 
-//! Uncomment this line to compile with the SDL device
+//! Uncomment this line to compile with the SDL irrlichtDevice
 //#define _IRR_COMPILE_WITH_SDL_DEVICE_
 #ifdef NO_IRR_COMPILE_WITH_SDL_DEVICE_
 #undef _IRR_COMPILE_WITH_SDL_DEVICE_
 #endif
 
-//! Comment this line to compile without the fallback console device.
+//! Comment this line to compile without the fallback console irrlichtDevice.
 #define _IRR_COMPILE_WITH_CONSOLE_DEVICE_
 #ifdef NO_IRR_COMPILE_WITH_CONSOLE_DEVICE_
 #undef _IRR_COMPILE_WITH_CONSOLE_DEVICE_
@@ -58,7 +58,7 @@
 
 //! WIN32 for Windows32
 //! WIN64 for Windows64
-// The windows platform and API support SDL and WINDOW device
+// The windows platform and API support SDL and WINDOW irrlichtDevice
 #if defined(_WIN32) || defined(_WIN64) || defined(WIN32) || defined(WIN64)
 #define _IRR_WINDOWS_
 #define _IRR_WINDOWS_API_
@@ -118,7 +118,7 @@
 
 //! Define _IRR_COMPILE_WITH_DIRECT3D_8_ and _IRR_COMPILE_WITH_DIRECT3D_9_ to
 //! compile the Irrlicht engine with Direct3D8 and/or DIRECT3D9.
-/** If you only want to use the software device or opengl you can disable those defines.
+/** If you only want to use the software irrlichtDevice or opengl you can disable those defines.
 This switch is mostly disabled because people do not get the g++ compiler compile
 directX header files, and directX is only available on Windows platforms. If you
 are using Dev-Cpp, and want to compile this using a DX dev pack, you can define
@@ -134,7 +134,7 @@ headers, e.g. Summer 2004.  This is a Microsoft issue, not an Irrlicht one.
 #if defined(_IRR_WINDOWS_API_) && (!defined(__GNUC__) || defined(IRR_COMPILE_WITH_DX9_DEV_PACK))
 
 //! Define _IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_ if you want to use DirectInput for joystick handling.
-/** This only applies to Windows devices, currently only supported under Win32 device.
+/** This only applies to Windows devices, currently only supported under Win32 irrlichtDevice.
 If not defined, Windows Multimedia library is used, which offers also broad support for joystick devices. */
 #define _IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_
 #ifdef NO_IRR_COMPILE_WITH_DIRECTINPUT_JOYSTICK_

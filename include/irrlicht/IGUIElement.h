@@ -231,7 +231,7 @@ public:
 	/**
 	This will check this GUI element and all of its descendants, so it
 	may return this GUI element.  To check all GUI elements, call this
-	function on device->getGUIEnvironment()->getRootGUIElement(). Note
+	function on irrlichtDevice->getGUIEnvironment()->getRootGUIElement(). Note
 	that the root element is the size of the screen, so doing so (with
 	an on-screen point) will always return the root element if no other
 	element is above it at that point.

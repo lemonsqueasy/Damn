@@ -70,62 +70,92 @@ CMakeFiles/Damn.dir/source/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Damn.dir/source/main.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/main.cpp -o CMakeFiles/Damn.dir/source/main.cpp.s
 
-CMakeFiles/Damn.dir/source/tool_functions/tool_functions.cpp.o: CMakeFiles/Damn.dir/flags.make
-CMakeFiles/Damn.dir/source/tool_functions/tool_functions.cpp.o: ../source/tool_functions/tool_functions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/monle/Documents/OSXProjects/CLionProjects/Damn/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Damn.dir/source/tool_functions/tool_functions.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Damn.dir/source/tool_functions/tool_functions.cpp.o -c /Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/tool_functions/tool_functions.cpp
+CMakeFiles/Damn.dir/source/lemon_functions/lemon_functions.cpp.o: CMakeFiles/Damn.dir/flags.make
+CMakeFiles/Damn.dir/source/lemon_functions/lemon_functions.cpp.o: ../source/lemon_functions/lemon_functions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/monle/Documents/OSXProjects/CLionProjects/Damn/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Damn.dir/source/lemon_functions/lemon_functions.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Damn.dir/source/lemon_functions/lemon_functions.cpp.o -c /Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/lemon_functions/lemon_functions.cpp
 
-CMakeFiles/Damn.dir/source/tool_functions/tool_functions.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Damn.dir/source/tool_functions/tool_functions.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/tool_functions/tool_functions.cpp > CMakeFiles/Damn.dir/source/tool_functions/tool_functions.cpp.i
+CMakeFiles/Damn.dir/source/lemon_functions/lemon_functions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Damn.dir/source/lemon_functions/lemon_functions.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/lemon_functions/lemon_functions.cpp > CMakeFiles/Damn.dir/source/lemon_functions/lemon_functions.cpp.i
 
-CMakeFiles/Damn.dir/source/tool_functions/tool_functions.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Damn.dir/source/tool_functions/tool_functions.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/tool_functions/tool_functions.cpp -o CMakeFiles/Damn.dir/source/tool_functions/tool_functions.cpp.s
+CMakeFiles/Damn.dir/source/lemon_functions/lemon_functions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Damn.dir/source/lemon_functions/lemon_functions.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/lemon_functions/lemon_functions.cpp -o CMakeFiles/Damn.dir/source/lemon_functions/lemon_functions.cpp.s
 
-CMakeFiles/Damn.dir/source/globals/Globals.cpp.o: CMakeFiles/Damn.dir/flags.make
-CMakeFiles/Damn.dir/source/globals/Globals.cpp.o: ../source/globals/Globals.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/monle/Documents/OSXProjects/CLionProjects/Damn/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Damn.dir/source/globals/Globals.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Damn.dir/source/globals/Globals.cpp.o -c /Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/globals/Globals.cpp
+CMakeFiles/Damn.dir/source/Globals/Globals.cpp.o: CMakeFiles/Damn.dir/flags.make
+CMakeFiles/Damn.dir/source/Globals/Globals.cpp.o: ../source/Globals/Globals.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/monle/Documents/OSXProjects/CLionProjects/Damn/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Damn.dir/source/Globals/Globals.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Damn.dir/source/Globals/Globals.cpp.o -c /Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/Globals/Globals.cpp
 
-CMakeFiles/Damn.dir/source/globals/Globals.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Damn.dir/source/globals/Globals.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/globals/Globals.cpp > CMakeFiles/Damn.dir/source/globals/Globals.cpp.i
+CMakeFiles/Damn.dir/source/Globals/Globals.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Damn.dir/source/Globals/Globals.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/Globals/Globals.cpp > CMakeFiles/Damn.dir/source/Globals/Globals.cpp.i
 
-CMakeFiles/Damn.dir/source/globals/Globals.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Damn.dir/source/globals/Globals.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/globals/Globals.cpp -o CMakeFiles/Damn.dir/source/globals/Globals.cpp.s
+CMakeFiles/Damn.dir/source/Globals/Globals.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Damn.dir/source/Globals/Globals.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/Globals/Globals.cpp -o CMakeFiles/Damn.dir/source/Globals/Globals.cpp.s
 
-CMakeFiles/Damn.dir/source/LEventReceiver.cpp.o: CMakeFiles/Damn.dir/flags.make
-CMakeFiles/Damn.dir/source/LEventReceiver.cpp.o: ../source/LEventReceiver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/monle/Documents/OSXProjects/CLionProjects/Damn/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Damn.dir/source/LEventReceiver.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Damn.dir/source/LEventReceiver.cpp.o -c /Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/LEventReceiver.cpp
+CMakeFiles/Damn.dir/source/LEventReceiver/LEventReceiver.cpp.o: CMakeFiles/Damn.dir/flags.make
+CMakeFiles/Damn.dir/source/LEventReceiver/LEventReceiver.cpp.o: ../source/LEventReceiver/LEventReceiver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/monle/Documents/OSXProjects/CLionProjects/Damn/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Damn.dir/source/LEventReceiver/LEventReceiver.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Damn.dir/source/LEventReceiver/LEventReceiver.cpp.o -c /Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/LEventReceiver/LEventReceiver.cpp
 
-CMakeFiles/Damn.dir/source/LEventReceiver.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Damn.dir/source/LEventReceiver.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/LEventReceiver.cpp > CMakeFiles/Damn.dir/source/LEventReceiver.cpp.i
+CMakeFiles/Damn.dir/source/LEventReceiver/LEventReceiver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Damn.dir/source/LEventReceiver/LEventReceiver.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/LEventReceiver/LEventReceiver.cpp > CMakeFiles/Damn.dir/source/LEventReceiver/LEventReceiver.cpp.i
 
-CMakeFiles/Damn.dir/source/LEventReceiver.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Damn.dir/source/LEventReceiver.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/LEventReceiver.cpp -o CMakeFiles/Damn.dir/source/LEventReceiver.cpp.s
+CMakeFiles/Damn.dir/source/LEventReceiver/LEventReceiver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Damn.dir/source/LEventReceiver/LEventReceiver.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/LEventReceiver/LEventReceiver.cpp -o CMakeFiles/Damn.dir/source/LEventReceiver/LEventReceiver.cpp.s
+
+CMakeFiles/Damn.dir/source/Scenes/LSkyBox.cpp.o: CMakeFiles/Damn.dir/flags.make
+CMakeFiles/Damn.dir/source/Scenes/LSkyBox.cpp.o: ../source/Scenes/LSkyBox.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/monle/Documents/OSXProjects/CLionProjects/Damn/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Damn.dir/source/Scenes/LSkyBox.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Damn.dir/source/Scenes/LSkyBox.cpp.o -c /Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/Scenes/LSkyBox.cpp
+
+CMakeFiles/Damn.dir/source/Scenes/LSkyBox.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Damn.dir/source/Scenes/LSkyBox.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/Scenes/LSkyBox.cpp > CMakeFiles/Damn.dir/source/Scenes/LSkyBox.cpp.i
+
+CMakeFiles/Damn.dir/source/Scenes/LSkyBox.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Damn.dir/source/Scenes/LSkyBox.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/Scenes/LSkyBox.cpp -o CMakeFiles/Damn.dir/source/Scenes/LSkyBox.cpp.s
+
+CMakeFiles/Damn.dir/source/Scenes/LMap.cpp.o: CMakeFiles/Damn.dir/flags.make
+CMakeFiles/Damn.dir/source/Scenes/LMap.cpp.o: ../source/Scenes/LMap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/monle/Documents/OSXProjects/CLionProjects/Damn/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Damn.dir/source/Scenes/LMap.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Damn.dir/source/Scenes/LMap.cpp.o -c /Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/Scenes/LMap.cpp
+
+CMakeFiles/Damn.dir/source/Scenes/LMap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Damn.dir/source/Scenes/LMap.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/Scenes/LMap.cpp > CMakeFiles/Damn.dir/source/Scenes/LMap.cpp.i
+
+CMakeFiles/Damn.dir/source/Scenes/LMap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Damn.dir/source/Scenes/LMap.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/Scenes/LMap.cpp -o CMakeFiles/Damn.dir/source/Scenes/LMap.cpp.s
 
 # Object files for target Damn
 Damn_OBJECTS = \
 "CMakeFiles/Damn.dir/source/main.cpp.o" \
-"CMakeFiles/Damn.dir/source/tool_functions/tool_functions.cpp.o" \
-"CMakeFiles/Damn.dir/source/globals/Globals.cpp.o" \
-"CMakeFiles/Damn.dir/source/LEventReceiver.cpp.o"
+"CMakeFiles/Damn.dir/source/lemon_functions/lemon_functions.cpp.o" \
+"CMakeFiles/Damn.dir/source/Globals/Globals.cpp.o" \
+"CMakeFiles/Damn.dir/source/LEventReceiver/LEventReceiver.cpp.o" \
+"CMakeFiles/Damn.dir/source/Scenes/LSkyBox.cpp.o" \
+"CMakeFiles/Damn.dir/source/Scenes/LMap.cpp.o"
 
 # External object files for target Damn
 Damn_EXTERNAL_OBJECTS =
 
 Damn: CMakeFiles/Damn.dir/source/main.cpp.o
-Damn: CMakeFiles/Damn.dir/source/tool_functions/tool_functions.cpp.o
-Damn: CMakeFiles/Damn.dir/source/globals/Globals.cpp.o
-Damn: CMakeFiles/Damn.dir/source/LEventReceiver.cpp.o
+Damn: CMakeFiles/Damn.dir/source/lemon_functions/lemon_functions.cpp.o
+Damn: CMakeFiles/Damn.dir/source/Globals/Globals.cpp.o
+Damn: CMakeFiles/Damn.dir/source/LEventReceiver/LEventReceiver.cpp.o
+Damn: CMakeFiles/Damn.dir/source/Scenes/LSkyBox.cpp.o
+Damn: CMakeFiles/Damn.dir/source/Scenes/LMap.cpp.o
 Damn: CMakeFiles/Damn.dir/build.make
 Damn: CMakeFiles/Damn.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/monle/Documents/OSXProjects/CLionProjects/Damn/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Damn"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/monle/Documents/OSXProjects/CLionProjects/Damn/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Damn"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Damn.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

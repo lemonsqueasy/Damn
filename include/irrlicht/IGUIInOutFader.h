@@ -19,7 +19,7 @@ namespace gui
 	only useful for dramatic in and out fading, but also to show that the player
 	is hit in a first person shooter game for example.
 	\code
-	gui::IGUIInOutFader* fader = device->getGUIEnvironment()->addInOutFader();
+	gui::IGUIInOutFader* fader = irrlichtDevice->getGUIEnvironment()->addInOutFader();
 	fader->setColor(video::SColor(0,255,0,0));
 	fader->fadeIn(4000);
 	\endcode

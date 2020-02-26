@@ -123,59 +123,140 @@ Damn/fast:
 	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/build
 .PHONY : Damn/fast
 
-source/LEventReceiver.o: source/LEventReceiver.cpp.o
+source/Globals/Globals.o: source/Globals/Globals.cpp.o
 
-.PHONY : source/LEventReceiver.o
-
-# target to build an object file
-source/LEventReceiver.cpp.o:
-	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/source/LEventReceiver.cpp.o
-.PHONY : source/LEventReceiver.cpp.o
-
-source/LEventReceiver.i: source/LEventReceiver.cpp.i
-
-.PHONY : source/LEventReceiver.i
-
-# target to preprocess a source file
-source/LEventReceiver.cpp.i:
-	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/source/LEventReceiver.cpp.i
-.PHONY : source/LEventReceiver.cpp.i
-
-source/LEventReceiver.s: source/LEventReceiver.cpp.s
-
-.PHONY : source/LEventReceiver.s
-
-# target to generate assembly for a file
-source/LEventReceiver.cpp.s:
-	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/source/LEventReceiver.cpp.s
-.PHONY : source/LEventReceiver.cpp.s
-
-source/globals/Globals.o: source/globals/Globals.cpp.o
-
-.PHONY : source/globals/Globals.o
+.PHONY : source/Globals/Globals.o
 
 # target to build an object file
-source/globals/Globals.cpp.o:
-	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/source/globals/Globals.cpp.o
-.PHONY : source/globals/Globals.cpp.o
+source/Globals/Globals.cpp.o:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/source/Globals/Globals.cpp.o
+.PHONY : source/Globals/Globals.cpp.o
 
-source/globals/Globals.i: source/globals/Globals.cpp.i
+source/Globals/Globals.i: source/Globals/Globals.cpp.i
 
-.PHONY : source/globals/Globals.i
+.PHONY : source/Globals/Globals.i
 
 # target to preprocess a source file
-source/globals/Globals.cpp.i:
-	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/source/globals/Globals.cpp.i
-.PHONY : source/globals/Globals.cpp.i
+source/Globals/Globals.cpp.i:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/source/Globals/Globals.cpp.i
+.PHONY : source/Globals/Globals.cpp.i
 
-source/globals/Globals.s: source/globals/Globals.cpp.s
+source/Globals/Globals.s: source/Globals/Globals.cpp.s
 
-.PHONY : source/globals/Globals.s
+.PHONY : source/Globals/Globals.s
 
 # target to generate assembly for a file
-source/globals/Globals.cpp.s:
-	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/source/globals/Globals.cpp.s
-.PHONY : source/globals/Globals.cpp.s
+source/Globals/Globals.cpp.s:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/source/Globals/Globals.cpp.s
+.PHONY : source/Globals/Globals.cpp.s
+
+source/LEventReceiver/LEventReceiver.o: source/LEventReceiver/LEventReceiver.cpp.o
+
+.PHONY : source/LEventReceiver/LEventReceiver.o
+
+# target to build an object file
+source/LEventReceiver/LEventReceiver.cpp.o:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/source/LEventReceiver/LEventReceiver.cpp.o
+.PHONY : source/LEventReceiver/LEventReceiver.cpp.o
+
+source/LEventReceiver/LEventReceiver.i: source/LEventReceiver/LEventReceiver.cpp.i
+
+.PHONY : source/LEventReceiver/LEventReceiver.i
+
+# target to preprocess a source file
+source/LEventReceiver/LEventReceiver.cpp.i:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/source/LEventReceiver/LEventReceiver.cpp.i
+.PHONY : source/LEventReceiver/LEventReceiver.cpp.i
+
+source/LEventReceiver/LEventReceiver.s: source/LEventReceiver/LEventReceiver.cpp.s
+
+.PHONY : source/LEventReceiver/LEventReceiver.s
+
+# target to generate assembly for a file
+source/LEventReceiver/LEventReceiver.cpp.s:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/source/LEventReceiver/LEventReceiver.cpp.s
+.PHONY : source/LEventReceiver/LEventReceiver.cpp.s
+
+source/Scenes/LMap.o: source/Scenes/LMap.cpp.o
+
+.PHONY : source/Scenes/LMap.o
+
+# target to build an object file
+source/Scenes/LMap.cpp.o:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/source/Scenes/LMap.cpp.o
+.PHONY : source/Scenes/LMap.cpp.o
+
+source/Scenes/LMap.i: source/Scenes/LMap.cpp.i
+
+.PHONY : source/Scenes/LMap.i
+
+# target to preprocess a source file
+source/Scenes/LMap.cpp.i:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/source/Scenes/LMap.cpp.i
+.PHONY : source/Scenes/LMap.cpp.i
+
+source/Scenes/LMap.s: source/Scenes/LMap.cpp.s
+
+.PHONY : source/Scenes/LMap.s
+
+# target to generate assembly for a file
+source/Scenes/LMap.cpp.s:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/source/Scenes/LMap.cpp.s
+.PHONY : source/Scenes/LMap.cpp.s
+
+source/Scenes/LSkyBox.o: source/Scenes/LSkyBox.cpp.o
+
+.PHONY : source/Scenes/LSkyBox.o
+
+# target to build an object file
+source/Scenes/LSkyBox.cpp.o:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/source/Scenes/LSkyBox.cpp.o
+.PHONY : source/Scenes/LSkyBox.cpp.o
+
+source/Scenes/LSkyBox.i: source/Scenes/LSkyBox.cpp.i
+
+.PHONY : source/Scenes/LSkyBox.i
+
+# target to preprocess a source file
+source/Scenes/LSkyBox.cpp.i:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/source/Scenes/LSkyBox.cpp.i
+.PHONY : source/Scenes/LSkyBox.cpp.i
+
+source/Scenes/LSkyBox.s: source/Scenes/LSkyBox.cpp.s
+
+.PHONY : source/Scenes/LSkyBox.s
+
+# target to generate assembly for a file
+source/Scenes/LSkyBox.cpp.s:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/source/Scenes/LSkyBox.cpp.s
+.PHONY : source/Scenes/LSkyBox.cpp.s
+
+source/lemon_functions/lemon_functions.o: source/lemon_functions/lemon_functions.cpp.o
+
+.PHONY : source/lemon_functions/lemon_functions.o
+
+# target to build an object file
+source/lemon_functions/lemon_functions.cpp.o:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/source/lemon_functions/lemon_functions.cpp.o
+.PHONY : source/lemon_functions/lemon_functions.cpp.o
+
+source/lemon_functions/lemon_functions.i: source/lemon_functions/lemon_functions.cpp.i
+
+.PHONY : source/lemon_functions/lemon_functions.i
+
+# target to preprocess a source file
+source/lemon_functions/lemon_functions.cpp.i:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/source/lemon_functions/lemon_functions.cpp.i
+.PHONY : source/lemon_functions/lemon_functions.cpp.i
+
+source/lemon_functions/lemon_functions.s: source/lemon_functions/lemon_functions.cpp.s
+
+.PHONY : source/lemon_functions/lemon_functions.s
+
+# target to generate assembly for a file
+source/lemon_functions/lemon_functions.cpp.s:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/source/lemon_functions/lemon_functions.cpp.s
+.PHONY : source/lemon_functions/lemon_functions.cpp.s
 
 source/main.o: source/main.cpp.o
 
@@ -204,33 +285,6 @@ source/main.cpp.s:
 	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/source/main.cpp.s
 .PHONY : source/main.cpp.s
 
-source/tool_functions/tool_functions.o: source/tool_functions/tool_functions.cpp.o
-
-.PHONY : source/tool_functions/tool_functions.o
-
-# target to build an object file
-source/tool_functions/tool_functions.cpp.o:
-	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/source/tool_functions/tool_functions.cpp.o
-.PHONY : source/tool_functions/tool_functions.cpp.o
-
-source/tool_functions/tool_functions.i: source/tool_functions/tool_functions.cpp.i
-
-.PHONY : source/tool_functions/tool_functions.i
-
-# target to preprocess a source file
-source/tool_functions/tool_functions.cpp.i:
-	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/source/tool_functions/tool_functions.cpp.i
-.PHONY : source/tool_functions/tool_functions.cpp.i
-
-source/tool_functions/tool_functions.s: source/tool_functions/tool_functions.cpp.s
-
-.PHONY : source/tool_functions/tool_functions.s
-
-# target to generate assembly for a file
-source/tool_functions/tool_functions.cpp.s:
-	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/source/tool_functions/tool_functions.cpp.s
-.PHONY : source/tool_functions/tool_functions.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -240,18 +294,24 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Damn"
-	@echo "... source/LEventReceiver.o"
-	@echo "... source/LEventReceiver.i"
-	@echo "... source/LEventReceiver.s"
-	@echo "... source/globals/Globals.o"
-	@echo "... source/globals/Globals.i"
-	@echo "... source/globals/Globals.s"
+	@echo "... source/Globals/Globals.o"
+	@echo "... source/Globals/Globals.i"
+	@echo "... source/Globals/Globals.s"
+	@echo "... source/LEventReceiver/LEventReceiver.o"
+	@echo "... source/LEventReceiver/LEventReceiver.i"
+	@echo "... source/LEventReceiver/LEventReceiver.s"
+	@echo "... source/Scenes/LMap.o"
+	@echo "... source/Scenes/LMap.i"
+	@echo "... source/Scenes/LMap.s"
+	@echo "... source/Scenes/LSkyBox.o"
+	@echo "... source/Scenes/LSkyBox.i"
+	@echo "... source/Scenes/LSkyBox.s"
+	@echo "... source/lemon_functions/lemon_functions.o"
+	@echo "... source/lemon_functions/lemon_functions.i"
+	@echo "... source/lemon_functions/lemon_functions.s"
 	@echo "... source/main.o"
 	@echo "... source/main.i"
 	@echo "... source/main.s"
-	@echo "... source/tool_functions/tool_functions.o"
-	@echo "... source/tool_functions/tool_functions.i"
-	@echo "... source/tool_functions/tool_functions.s"
 .PHONY : help
 
 

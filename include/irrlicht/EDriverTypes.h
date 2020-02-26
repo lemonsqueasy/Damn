@@ -14,7 +14,7 @@ namespace video
 	enum E_DRIVER_TYPE
 	{
 		//! Null driver, useful for applications to run the engine without visualisation.
-		/** The null device is able to load textures, but does not
+		/** The null irrlichtDevice is able to load textures, but does not
 		render and display any graphics. */
 		EDT_NULL,
 
@@ -37,17 +37,17 @@ namespace video
 		contribution. */
 		EDT_BURNINGSVIDEO,
 
-		//! Direct3D8 device, only available on Win32 platforms.
+		//! Direct3D8 irrlichtDevice, only available on Win32 platforms.
 		/** Performs hardware accelerated rendering of 3D and 2D
 		primitives. */
 		EDT_DIRECT3D8,
 
-		//! Direct3D 9 device, only available on Win32 platforms.
+		//! Direct3D 9 irrlichtDevice, only available on Win32 platforms.
 		/** Performs hardware accelerated rendering of 3D and 2D
 		primitives. */
 		EDT_DIRECT3D9,
 
-		//! OpenGL device, available on most platforms.
+		//! OpenGL irrlichtDevice, available on most platforms.
 		/** Performs hardware accelerated rendering of 3D and 2D
 		primitives. */
 		EDT_OPENGL,

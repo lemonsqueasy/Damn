@@ -152,7 +152,7 @@ namespace video
 	/** Techniques supported are multisampling, geometry smoothing, and alpha
 	to coverage.
 	Some drivers don't support a per-material setting of the anti-aliasing
-	modes. In those cases, FSAA/multisampling is defined by the device mode
+	modes. In those cases, FSAA/multisampling is defined by the irrlichtDevice mode
 	chosen upon creation via irr::SIrrCreationParameters.
 	*/
 	enum E_ANTI_ALIASING_MODE

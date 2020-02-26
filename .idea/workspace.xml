@@ -12,7 +12,172 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e280d8ed-7a4c-4efb-aae6-0a0338f2a311" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/source/Scenes/LMap.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/Scenes/LMap.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/Scenes/LSkyBox.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/Scenes/LSkyBox.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/source/LEventReceiver.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/source/globals/Globals.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/source/globals/Globals.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/source/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/source/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/source/tool_functions/tool_functions.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Damn" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Damn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Damn.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Damn.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/EDeviceTypes.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/irrlicht/EDeviceTypes.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/EDriverFeatures.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/irrlicht/EDriverFeatures.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/EDriverTypes.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/irrlicht/EDriverTypes.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/ICursorControl.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/irrlicht/ICursorControl.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IEventReceiver.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/irrlicht/IEventReceiver.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IGUIElement.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/irrlicht/IGUIElement.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IGUIInOutFader.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/irrlicht/IGUIInOutFader.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/ILightManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/irrlicht/ILightManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/ITexture.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/irrlicht/ITexture.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IVideoDriver.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/irrlicht/IVideoDriver.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IVideoModeList.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/irrlicht/IVideoModeList.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IrrCompileConfig.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/irrlicht/IrrCompileConfig.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IrrlichtDevice.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/irrlicht/IrrlichtDevice.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/SExposedVideoData.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/irrlicht/SExposedVideoData.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/SIrrCreationParameters.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/irrlicht/SIrrCreationParameters.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/SMaterial.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/irrlicht/SMaterial.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/irrlicht.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/irrlicht/irrlicht.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Faerie5.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/IrrlichtTheme.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/MF-3DAYS.S3M" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/MF-PANTS.MOD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/MF-W-90.XM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Particle.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/axe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/ball.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/bell.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/bigfont.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/burninglogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/d3d8.psh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/d3d8.vsh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/d3d9.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/d3d9.psh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/d3d9.vsh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/demoback.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/detailmap3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/directxlogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/dotnetback.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/dwarf-Read-Me.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/dwarf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/dwarf.x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/earth.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/earth.x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/earthbump.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/enano.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/example.irr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/explosion.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/faerie.md2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/faerie2.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/fire.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/fireball.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/fontcourier.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/fonthaettenschweiler.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/fontlucida.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/getout.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/gun.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/gun.md2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/help.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/hsydney.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/icon_crosshairs16x16bw1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/icon_crosshairs16x16bw2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/icon_crosshairs16x16bw3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/icon_crosshairs16x16col.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/iconlist.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/impact.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/irr.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/irrlicht.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/irrlicht2_bk.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/irrlicht2_dn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/irrlicht2_ft.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/irrlicht2_lf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/irrlicht2_rt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/irrlicht2_up.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/irrlichtlogo.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/irrlichtlogo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/irrlichtlogo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/irrlichtlogo3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/irrlichtlogoaligned.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/irrlichtlogoalpha.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/irrlichtlogoalpha2.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/lightFalloff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/lucida.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/lucida0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/map-20kdm2.pk3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/map-20kdm2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/ninja animation ranges.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/ninja.b3d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/nskinbl.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/nskinrd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/open.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/opengl.frag" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/opengl.psh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/opengl.vert" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/opengl.vsh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/opengllogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/ophelia.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/particle.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/particlegreen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/particlered.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/particlewhite.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/portal1.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/portal2.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/portal3.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/portal4.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/portal5.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/portal6.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/portal7.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/rockwall.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/rockwall_height.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/room.3ds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/rsptnback.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/skydome.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/skydome2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/smoke.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/smoke2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/smoke3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/spheremap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/stones.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/sydney.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/sydney.md2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/sydney的副本.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/t351sml.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/terrain-heightmap.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/terrain-texture.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/tools.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/vc6include.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/vc6optionsdir.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/vcnetinclude.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/wall.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/wall.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/water.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/yodan mdl - readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/yodan.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/zip.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/pack.sh" beforeDir="false" afterPath="$PROJECT_DIR$/release/pack.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/LEventReceiver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/LEventReceiver/LEventReceiver.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/LEventReceiver.h" beforeDir="false" afterPath="$PROJECT_DIR$/source/LEventReceiver/LEventReceiver.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/globals/Globals.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/Globals/Globals.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/globals/Globals.h" beforeDir="false" afterPath="$PROJECT_DIR$/source/Globals/Globals.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/tool_functions/tool_functions.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/lemon_functions/lemon_functions.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/tool_functions/tool_functions.h" beforeDir="false" afterPath="$PROJECT_DIR$/source/lemon_functions/lemon_functions.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +202,12 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/source/LEventReceiver" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Damn" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Damn" TARGET_NAME="Damn" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Damn" RUN_TARGET_NAME="Damn">
@@ -57,7 +227,15 @@
       <option name="presentableId" value="Default" />
       <updated>1582113252576</updated>
       <workItem from="1582113255768" duration="1884000" />
-      <workItem from="1582115641593" duration="559000" />
+      <workItem from="1582115641593" duration="565000" />
+      <workItem from="1582121093156" duration="3774000" />
+      <workItem from="1582165064647" duration="11105000" />
+      <workItem from="1582291157110" duration="8910000" />
+      <workItem from="1582376103308" duration="6447000" />
+      <workItem from="1582424635369" duration="5476000" />
+      <workItem from="1582468680332" duration="4338000" />
+      <workItem from="1582481288405" duration="47000" />
+      <workItem from="1582510686592" duration="47657000" />
     </task>
     <servers />
   </component>
@@ -74,25 +252,62 @@
       <screen x="0" y="23" width="1680" height="964" />
     </state>
     <state x="481" y="170" key="#Notifications/0.23.1680.964@0.23.1680.964" timestamp="1582115164682" />
-    <state width="1638" height="258" key="GridCell.Tab.0.bottom" timestamp="1582115432405">
-      <screen x="0" y="23" width="1680" height="964" />
+    <state x="397" y="108" key="CommitChangelistDialog2" timestamp="1582121532990">
+      <screen x="0" y="23" width="1680" height="965" />
     </state>
-    <state width="1638" height="258" key="GridCell.Tab.0.bottom/0.23.1680.964@0.23.1680.964" timestamp="1582115432405" />
-    <state width="1638" height="258" key="GridCell.Tab.0.center" timestamp="1582115432404">
-      <screen x="0" y="23" width="1680" height="964" />
+    <state x="397" y="108" key="CommitChangelistDialog2/0.23.1680.965@0.23.1680.965" timestamp="1582121532990" />
+    <state width="1637" height="230" key="GridCell.Tab.0.bottom" timestamp="1582689326248">
+      <screen x="0" y="23" width="1680" height="973" />
     </state>
-    <state width="1638" height="258" key="GridCell.Tab.0.center/0.23.1680.964@0.23.1680.964" timestamp="1582115432404" />
-    <state width="1638" height="258" key="GridCell.Tab.0.left" timestamp="1582115432404">
-      <screen x="0" y="23" width="1680" height="964" />
+    <state width="1548" height="230" key="GridCell.Tab.0.bottom/0.23.1680.962@0.23.1680.962" timestamp="1582510917357" />
+    <state width="1548" height="230" key="GridCell.Tab.0.bottom/0.23.1680.964@0.23.1680.964" timestamp="1582603495129" />
+    <state width="1548" height="230" key="GridCell.Tab.0.bottom/0.23.1680.965@0.23.1680.965" timestamp="1582611621245" />
+    <state width="1615" height="230" key="GridCell.Tab.0.bottom/0.23.1680.967@0.23.1680.967" timestamp="1582613147948" />
+    <state width="1548" height="230" key="GridCell.Tab.0.bottom/0.23.1680.971@0.23.1680.971" timestamp="1582560659281" />
+    <state width="1637" height="230" key="GridCell.Tab.0.bottom/0.23.1680.972@0.23.1680.972" timestamp="1582684283419" />
+    <state width="1637" height="230" key="GridCell.Tab.0.bottom/0.23.1680.973@0.23.1680.973" timestamp="1582689326248" />
+    <state width="1548" height="230" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1582431250727" />
+    <state width="1548" height="230" key="GridCell.Tab.0.bottom/0.23.1680.976@0.23.1680.976" timestamp="1582430412657" />
+    <state width="1637" height="230" key="GridCell.Tab.0.center" timestamp="1582689326247">
+      <screen x="0" y="23" width="1680" height="973" />
     </state>
-    <state width="1638" height="258" key="GridCell.Tab.0.left/0.23.1680.964@0.23.1680.964" timestamp="1582115432404" />
-    <state width="1638" height="258" key="GridCell.Tab.0.right" timestamp="1582115432405">
-      <screen x="0" y="23" width="1680" height="964" />
+    <state width="1548" height="230" key="GridCell.Tab.0.center/0.23.1680.962@0.23.1680.962" timestamp="1582510917356" />
+    <state width="1548" height="230" key="GridCell.Tab.0.center/0.23.1680.964@0.23.1680.964" timestamp="1582603495128" />
+    <state width="1548" height="230" key="GridCell.Tab.0.center/0.23.1680.965@0.23.1680.965" timestamp="1582611621245" />
+    <state width="1615" height="230" key="GridCell.Tab.0.center/0.23.1680.967@0.23.1680.967" timestamp="1582613147947" />
+    <state width="1548" height="230" key="GridCell.Tab.0.center/0.23.1680.971@0.23.1680.971" timestamp="1582560659280" />
+    <state width="1637" height="230" key="GridCell.Tab.0.center/0.23.1680.972@0.23.1680.972" timestamp="1582684283419" />
+    <state width="1637" height="230" key="GridCell.Tab.0.center/0.23.1680.973@0.23.1680.973" timestamp="1582689326247" />
+    <state width="1548" height="230" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1582431250727" />
+    <state width="1548" height="230" key="GridCell.Tab.0.center/0.23.1680.976@0.23.1680.976" timestamp="1582430412656" />
+    <state width="1637" height="230" key="GridCell.Tab.0.left" timestamp="1582689326246">
+      <screen x="0" y="23" width="1680" height="973" />
     </state>
-    <state width="1638" height="258" key="GridCell.Tab.0.right/0.23.1680.964@0.23.1680.964" timestamp="1582115432405" />
-    <state x="280" y="144" key="SettingsEditor" timestamp="1582115225980">
-      <screen x="0" y="23" width="1680" height="964" />
+    <state width="1548" height="230" key="GridCell.Tab.0.left/0.23.1680.962@0.23.1680.962" timestamp="1582510917355" />
+    <state width="1548" height="230" key="GridCell.Tab.0.left/0.23.1680.964@0.23.1680.964" timestamp="1582603495127" />
+    <state width="1548" height="230" key="GridCell.Tab.0.left/0.23.1680.965@0.23.1680.965" timestamp="1582611621244" />
+    <state width="1615" height="230" key="GridCell.Tab.0.left/0.23.1680.967@0.23.1680.967" timestamp="1582613147947" />
+    <state width="1548" height="230" key="GridCell.Tab.0.left/0.23.1680.971@0.23.1680.971" timestamp="1582560659279" />
+    <state width="1637" height="230" key="GridCell.Tab.0.left/0.23.1680.972@0.23.1680.972" timestamp="1582684283418" />
+    <state width="1637" height="230" key="GridCell.Tab.0.left/0.23.1680.973@0.23.1680.973" timestamp="1582689326246" />
+    <state width="1548" height="230" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1582431250726" />
+    <state width="1548" height="230" key="GridCell.Tab.0.left/0.23.1680.976@0.23.1680.976" timestamp="1582430412656" />
+    <state width="1637" height="230" key="GridCell.Tab.0.right" timestamp="1582689326247">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state width="1548" height="230" key="GridCell.Tab.0.right/0.23.1680.962@0.23.1680.962" timestamp="1582510917356" />
+    <state width="1548" height="230" key="GridCell.Tab.0.right/0.23.1680.964@0.23.1680.964" timestamp="1582603495128" />
+    <state width="1548" height="230" key="GridCell.Tab.0.right/0.23.1680.965@0.23.1680.965" timestamp="1582611621245" />
+    <state width="1615" height="230" key="GridCell.Tab.0.right/0.23.1680.967@0.23.1680.967" timestamp="1582613147948" />
+    <state width="1548" height="230" key="GridCell.Tab.0.right/0.23.1680.971@0.23.1680.971" timestamp="1582560659280" />
+    <state width="1637" height="230" key="GridCell.Tab.0.right/0.23.1680.972@0.23.1680.972" timestamp="1582684283419" />
+    <state width="1637" height="230" key="GridCell.Tab.0.right/0.23.1680.973@0.23.1680.973" timestamp="1582689326247" />
+    <state width="1548" height="230" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1582431250727" />
+    <state width="1548" height="230" key="GridCell.Tab.0.right/0.23.1680.976@0.23.1680.976" timestamp="1582430412657" />
+    <state x="280" y="145" key="SettingsEditor" timestamp="1582689385843">
+      <screen x="0" y="23" width="1680" height="973" />
     </state>
     <state x="280" y="144" key="SettingsEditor/0.23.1680.964@0.23.1680.964" timestamp="1582115225980" />
+    <state x="280" y="145" key="SettingsEditor/0.23.1680.973@0.23.1680.973" timestamp="1582689385843" />
   </component>
 </project>

@@ -82,25 +82,37 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/LEventReceiver.cpp">
+		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/Globals/Globals.cpp">
 			<Option target="Damn"/>
 		</Unit>
-		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/LEventReceiver.h">
+		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/Globals/Globals.h">
 			<Option target="Damn"/>
 		</Unit>
-		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/globals/Globals.cpp">
+		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/LEventReceiver/LEventReceiver.cpp">
 			<Option target="Damn"/>
 		</Unit>
-		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/globals/Globals.h">
+		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/LEventReceiver/LEventReceiver.h">
+			<Option target="Damn"/>
+		</Unit>
+		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/Scenes/LMap.cpp">
+			<Option target="Damn"/>
+		</Unit>
+		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/Scenes/LMap.h">
+			<Option target="Damn"/>
+		</Unit>
+		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/Scenes/LSkyBox.cpp">
+			<Option target="Damn"/>
+		</Unit>
+		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/Scenes/LSkyBox.h">
+			<Option target="Damn"/>
+		</Unit>
+		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/lemon_functions/lemon_functions.cpp">
+			<Option target="Damn"/>
+		</Unit>
+		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/lemon_functions/lemon_functions.h">
 			<Option target="Damn"/>
 		</Unit>
 		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/main.cpp">
-			<Option target="Damn"/>
-		</Unit>
-		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/tool_functions/tool_functions.cpp">
-			<Option target="Damn"/>
-		</Unit>
-		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/tool_functions/tool_functions.h">
 			<Option target="Damn"/>
 		</Unit>
 		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/CMakeLists.txt">

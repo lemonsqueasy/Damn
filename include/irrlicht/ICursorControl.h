@@ -86,7 +86,7 @@ namespace gui
 
 		//! On X11 try caching cursor updates as XQueryPointer calls can be expensive.
 		/** Update cursor positions only when the irrlicht timer has been updated or the timer is stopped.
-			This means you usually get one cursor update per device->run() which will be fine in most cases.
+			This means you usually get one cursor update per irrlichtDevice->run() which will be fine in most cases.
 			See this forum-thread for a more detailed explanation:
 			http://irrlicht.sourceforge.net/forum/viewtopic.php?f=7&t=45525
 		*/

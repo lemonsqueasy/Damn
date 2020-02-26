@@ -33,7 +33,7 @@ enum E_TEXTURE_CREATION_FLAG
 
 	/** Forces the driver to create 32 bit textures always, independent of
 	which format the file on disk has. Please note that some drivers (like
-	the software device) will ignore this, because they are only able to
+	the software irrlichtDevice) will ignore this, because they are only able to
 	create and use 16 bit textures.
 	When using this flag, it does not make sense to use the flags
 	ETCF_ALWAYS_16_BIT, ETCF_OPTIMIZED_FOR_QUALITY, or
@@ -89,10 +89,10 @@ enum E_TEXTURE_LOCK_MODE
 //! Interface of a Video Driver dependent Texture.
 /** An ITexture is created by an IVideoDriver by using IVideoDriver::addTexture
 or IVideoDriver::getTexture. After that, the texture may only be used by this
-VideoDriver. As you can imagine, textures of the DirectX and the OpenGL device
-will, e.g., not be compatible. An exception is the Software device and the
-NULL device, their textures are compatible. If you try to use a texture
-created by one device with an other device, the device will refuse to do that
+VideoDriver. As you can imagine, textures of the DirectX and the OpenGL irrlichtDevice
+will, e.g., not be compatible. An exception is the Software irrlichtDevice and the
+NULL irrlichtDevice, their textures are compatible. If you try to use a texture
+created by one irrlichtDevice with an other irrlichtDevice, the irrlichtDevice will refuse to do that
 and write a warning or an error message to the output buffer.
 */
 class ITexture : public virtual IReferenceCounted

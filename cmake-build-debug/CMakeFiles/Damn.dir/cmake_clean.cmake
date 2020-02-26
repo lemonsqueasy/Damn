@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Damn.dir/source/LEventReceiver.cpp.o"
-  "CMakeFiles/Damn.dir/source/globals/Globals.cpp.o"
+  "CMakeFiles/Damn.dir/source/Globals/Globals.cpp.o"
+  "CMakeFiles/Damn.dir/source/LEventReceiver/LEventReceiver.cpp.o"
+  "CMakeFiles/Damn.dir/source/Scenes/LMap.cpp.o"
+  "CMakeFiles/Damn.dir/source/Scenes/LSkyBox.cpp.o"
+  "CMakeFiles/Damn.dir/source/lemon_functions/lemon_functions.cpp.o"
   "CMakeFiles/Damn.dir/source/main.cpp.o"
-  "CMakeFiles/Damn.dir/source/tool_functions/tool_functions.cpp.o"
   "Damn"
   "Damn.pdb"
 )

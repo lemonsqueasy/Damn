@@ -34,7 +34,7 @@ namespace irr
 		class ISceneManager;
 	} // end namespace scene
 
-	//! The Irrlicht device. You can create it with createDevice() or createDeviceEx().
+	//! The Irrlicht irrlichtDevice. You can create it with createDevice() or createDeviceEx().
 	/** This is the most important class of the Irrlicht Engine. You can
 	access everything in the engine if you have a pointer to an instance of
 	this class.  There should be only one instance of this class at any
@@ -44,19 +44,19 @@ namespace irr
 	{
 	public:
 
-		//! Runs the device.
+		//! Runs the irrlichtDevice.
 		/** Also increments the virtual timer by calling
 		ITimer::tick();. You can prevent this
 		by calling ITimer::stop(); before and ITimer::start() after
-		calling IrrlichtDevice::run(). Returns false if device wants
+		calling IrrlichtDevice::run(). Returns false if irrlichtDevice wants
 		to be deleted. Use it in this way:
 		\code
-		while(device->run())
+		while(irrlichtDevice->run())
 		{
 			// draw everything here
 		}
 		\endcode
-		If you want the device to do nothing if the window is inactive
+		If you want the irrlichtDevice to do nothing if the window is inactive
 		(recommended), use the slightly enhanced code shown at isWindowActive().
 
 		Note if you are running Irrlicht inside an external, custom
@@ -71,7 +71,7 @@ namespace irr
 		*/
 		virtual bool run() = 0;
 
-		//! Cause the device to temporarily pause execution and let other processes run.
+		//! Cause the irrlichtDevice to temporarily pause execution and let other processes run.
 		/** This should bring down processor usage without major
 		performance loss for Irrlicht */
 		virtual void yield() = 0;
@@ -79,7 +79,7 @@ namespace irr
 		//! Pause execution and let other processes to run for a specified amount of time.
 		/** It may not wait the full given time, as sleep may be interrupted
 		\param timeMs: Time to sleep for in milisecs.
-		\param pauseTimer: If true, pauses the device timer while sleeping
+		\param pauseTimer: If true, pauses the irrlichtDevice timer while sleeping
 		*/
 		virtual void sleep(u32 timeMs, bool pauseTimer=false) = 0;
 
@@ -139,12 +139,12 @@ namespace irr
 		//! Sets a new randomizer.
 		/** \param r Pointer to the new IRandomizer object. This object is
 		grab()'ed by the engine and will be released upon the next setRandomizer
-		call or upon device destruction. */
+		call or upon irrlichtDevice destruction. */
 		virtual void setRandomizer(IRandomizer* r) =0;
 
 		//! Creates a new default randomizer.
 		/** The default randomizer provides the random sequence known from previous
-		Irrlicht versions and is the initial randomizer set on device creation.
+		Irrlicht versions and is the initial randomizer set on irrlichtDevice creation.
 		\return Pointer to the default IRandomizer object. */
 		virtual IRandomizer* createDefaultRandomizer() const =0;
 
@@ -157,14 +157,14 @@ namespace irr
 		nothing needs to be drawn. So if you don't want to draw anything
 		when the window is inactive, create your drawing loop this way:
 		\code
-		while(device->run())
+		while(irrlichtDevice->run())
 		{
-			if (device->isWindowActive())
+			if (irrlichtDevice->isWindowActive())
 			{
 				// draw everything here
 			}
 			else
-				device->yield();
+				irrlichtDevice->yield();
 		}
 		\endcode
 		\return True if window is active. */
@@ -186,7 +186,7 @@ namespace irr
 		/** \return Color format of the window. */
 		virtual video::ECOLOR_FORMAT getColorFormat() const = 0;
 
-		//! Notifies the device that it should close itself.
+		//! Notifies the irrlichtDevice that it should close itself.
 		/** IrrlichtDevice::run() will always return false after closeDevice() was called. */
 		virtual void closeDevice() = 0;
 
@@ -241,7 +241,7 @@ namespace irr
 		as this would consume joystick info that 3rd party libraries might rely on. Call this method to
 		activate joystick support in Irrlicht and to receive irr::SJoystickEvent events.
 		\param joystickInfo On return, this will contain an array of each joystick that was found and activated.
-		\return true if joysticks are supported on this device and _IRR_COMPILE_WITH_JOYSTICK_EVENTS_
+		\return true if joysticks are supported on this irrlichtDevice and _IRR_COMPILE_WITH_JOYSTICK_EVENTS_
 				is defined, false if joysticks are not supported or support is compiled out.
 		*/
 		virtual bool activateJoysticks(core::array<SJoystickInfo>& joystickInfo) =0;
@@ -266,14 +266,14 @@ namespace irr
 		If you think further messages should be cleared, or some messages should not be cleared here, then please tell us. */
 		virtual void clearSystemMessages() = 0;
 
-		//! Get the type of the device.
+		//! Get the type of the irrlichtDevice.
 		/** This allows the user to check which windowing system is currently being
 		used. */
 		virtual E_DEVICE_TYPE getType() const = 0;
 
 		//! Check if a driver type is supported by the engine.
 		/** Even if true is returned the driver may not be available
-		for a configuration requested when creating the device. */
+		for a configuration requested when creating the irrlichtDevice. */
 		static bool isDriverSupported(video::E_DRIVER_TYPE driver)
 		{
 			switch (driver)

@@ -228,13 +228,13 @@
  * int main()
  * {
  *	// start up the engine
- *	IrrlichtDevice *device = createDevice(video::EDT_DIRECT3D8,
+ *	IrrlichtDevice *irrlichtDevice = createDevice(video::EDT_DIRECT3D8,
  *		core::dimension2d<u32>(640,480));
  *
- *	video::IVideoDriver* driver = device->getVideoDriver();
- *	scene::ISceneManager* scenemgr = device->getSceneManager();
+ *	video::IVideoDriver* driver = irrlichtDevice->getVideoDriver();
+ *	scene::ISceneManager* scenemgr = irrlichtDevice->getSceneManager();
  *
- *	device->setWindowCaption(L"Hello World!");
+ *	irrlichtDevice->setWindowCaption(L"Hello World!");
  *
  *	// load and show quake2 .md2 model
  *	scene::ISceneNode* node = scenemgr->addAnimatedMeshSceneNode(
@@ -251,15 +251,15 @@
  *	scenemgr->addCameraSceneNodeFPS();
  *
  *	// draw everything
- *	while(device->run() && driver)
+ *	while(irrlichtDevice->run() && driver)
  *	{
  *		driver->beginScene(true, true, video::SColor(255,0,0,255));
  *		scenemgr->drawAll();
  *		driver->endScene();
  *	}
  *
- *	// delete device
- *	device->drop();
+ *	// delete irrlichtDevice
+ *	irrlichtDevice->drop();
  *	return 0;
  * }
  * \endcode
@@ -271,7 +271,7 @@
  *
  * \code
  *	// add .pk3 archive to the file system
- *	device->getFileSystem()->addZipFileArchive("quake3map.pk3");
+ *	irrlichtDevice->getFileSystem()->addZipFileArchive("quake3map.pk3");
  *
  *	// load .bsp file and show it using an octree
  *	scenemgr->addOctreeSceneNode(
@@ -303,15 +303,15 @@
 //! Everything in the Irrlicht Engine can be found in this namespace.
 namespace irr
 {
-	//! Creates an Irrlicht device. The Irrlicht device is the root object for using the engine.
-	/** If you need more parameters to be passed to the creation of the Irrlicht Engine device,
+	//! Creates an Irrlicht irrlichtDevice. The Irrlicht irrlichtDevice is the root object for using the engine.
+	/** If you need more parameters to be passed to the creation of the Irrlicht Engine irrlichtDevice,
 	use the createDeviceEx() function.
-	\param deviceType: Type of the device. This can currently be video::EDT_NULL,
+	\param deviceType: Type of the irrlichtDevice. This can currently be video::EDT_NULL,
 	video::EDT_SOFTWARE, video::EDT_BURNINGSVIDEO, video::EDT_DIRECT3D8, video::EDT_DIRECT3D9 and video::EDT_OPENGL.
 	\param windowSize: Size of the window or the video mode in fullscreen mode.
 	\param bits: Bits per pixel in fullscreen mode. Ignored if windowed mode.
-	\param fullscreen: Should be set to true if the device should run in fullscreen. Otherwise
-		the device runs in windowed mode.
+	\param fullscreen: Should be set to true if the irrlichtDevice should run in fullscreen. Otherwise
+		the irrlichtDevice runs in windowed mode.
 	\param stencilbuffer: Specifies if the stencil buffer should be enabled. Set this to true,
 	if you want the engine be able to draw stencil buffer shadows. Note that not all
 	devices are able to use the stencil buffer. If they don't no shadows will be drawn.
@@ -319,7 +319,7 @@ namespace irr
 	for the vertical retrace period, otherwise not.
 	\param receiver: A user created event receiver.
 	\return Returns pointer to the created IrrlichtDevice or null if the
-	device could not be created.
+	irrlichtDevice could not be created.
 	*/
 	extern "C" IRRLICHT_API IrrlichtDevice* IRRCALLCONV createDevice(
 		video::E_DRIVER_TYPE deviceType = video::EDT_SOFTWARE,
@@ -342,14 +342,14 @@ namespace irr
 			IEventReceiver* receiver);
 
 
-	//! Creates an Irrlicht device with the option to specify advanced parameters.
-	/** Usually you should used createDevice() for creating an Irrlicht Engine device.
+	//! Creates an Irrlicht irrlichtDevice with the option to specify advanced parameters.
+	/** Usually you should used createDevice() for creating an Irrlicht Engine irrlichtDevice.
 	Use this function only if you wish to specify advanced parameters like a window
-	handle in which the device should be created.
-	\param parameters: Structure containing advanced parameters for the creation of the device.
+	handle in which the irrlichtDevice should be created.
+	\param parameters: Structure containing advanced parameters for the creation of the irrlichtDevice.
 	See irr::SIrrlichtCreationParameters for details.
 	\return Returns pointer to the created IrrlichtDevice or null if the
-	device could not be created. */
+	irrlichtDevice could not be created. */
 	extern "C" IRRLICHT_API IrrlichtDevice* IRRCALLCONV createDeviceEx(
 		const SIrrlichtCreationParameters& parameters);
 
