@@ -73,11 +73,10 @@ namespace lemon
 
     bool LSkyBox::setVisible(bool isVisible)
     {
-        if(){
+       // if()
+       // {
 
-        }else{
-
-        }
+       // }
     }
 
 }
