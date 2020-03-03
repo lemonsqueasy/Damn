@@ -123,167 +123,194 @@ Damn/fast:
 	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/build
 .PHONY : Damn/fast
 
-source/Globals/Globals.o: source/Globals/Globals.cpp.o
+src/GraphicWorld/EventReceiver.o: src/GraphicWorld/EventReceiver.cpp.o
 
-.PHONY : source/Globals/Globals.o
-
-# target to build an object file
-source/Globals/Globals.cpp.o:
-	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/source/Globals/Globals.cpp.o
-.PHONY : source/Globals/Globals.cpp.o
-
-source/Globals/Globals.i: source/Globals/Globals.cpp.i
-
-.PHONY : source/Globals/Globals.i
-
-# target to preprocess a source file
-source/Globals/Globals.cpp.i:
-	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/source/Globals/Globals.cpp.i
-.PHONY : source/Globals/Globals.cpp.i
-
-source/Globals/Globals.s: source/Globals/Globals.cpp.s
-
-.PHONY : source/Globals/Globals.s
-
-# target to generate assembly for a file
-source/Globals/Globals.cpp.s:
-	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/source/Globals/Globals.cpp.s
-.PHONY : source/Globals/Globals.cpp.s
-
-source/LEventReceiver/LEventReceiver.o: source/LEventReceiver/LEventReceiver.cpp.o
-
-.PHONY : source/LEventReceiver/LEventReceiver.o
+.PHONY : src/GraphicWorld/EventReceiver.o
 
 # target to build an object file
-source/LEventReceiver/LEventReceiver.cpp.o:
-	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/source/LEventReceiver/LEventReceiver.cpp.o
-.PHONY : source/LEventReceiver/LEventReceiver.cpp.o
+src/GraphicWorld/EventReceiver.cpp.o:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/src/GraphicWorld/EventReceiver.cpp.o
+.PHONY : src/GraphicWorld/EventReceiver.cpp.o
 
-source/LEventReceiver/LEventReceiver.i: source/LEventReceiver/LEventReceiver.cpp.i
+src/GraphicWorld/EventReceiver.i: src/GraphicWorld/EventReceiver.cpp.i
 
-.PHONY : source/LEventReceiver/LEventReceiver.i
+.PHONY : src/GraphicWorld/EventReceiver.i
 
 # target to preprocess a source file
-source/LEventReceiver/LEventReceiver.cpp.i:
-	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/source/LEventReceiver/LEventReceiver.cpp.i
-.PHONY : source/LEventReceiver/LEventReceiver.cpp.i
+src/GraphicWorld/EventReceiver.cpp.i:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/src/GraphicWorld/EventReceiver.cpp.i
+.PHONY : src/GraphicWorld/EventReceiver.cpp.i
 
-source/LEventReceiver/LEventReceiver.s: source/LEventReceiver/LEventReceiver.cpp.s
+src/GraphicWorld/EventReceiver.s: src/GraphicWorld/EventReceiver.cpp.s
 
-.PHONY : source/LEventReceiver/LEventReceiver.s
+.PHONY : src/GraphicWorld/EventReceiver.s
 
 # target to generate assembly for a file
-source/LEventReceiver/LEventReceiver.cpp.s:
-	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/source/LEventReceiver/LEventReceiver.cpp.s
-.PHONY : source/LEventReceiver/LEventReceiver.cpp.s
+src/GraphicWorld/EventReceiver.cpp.s:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/src/GraphicWorld/EventReceiver.cpp.s
+.PHONY : src/GraphicWorld/EventReceiver.cpp.s
 
-source/Scenes/LMap.o: source/Scenes/LMap.cpp.o
+src/GraphicWorld/GUIDisplayer/GUIDisplayer.o: src/GraphicWorld/GUIDisplayer/GUIDisplayer.cpp.o
 
-.PHONY : source/Scenes/LMap.o
+.PHONY : src/GraphicWorld/GUIDisplayer/GUIDisplayer.o
 
 # target to build an object file
-source/Scenes/LMap.cpp.o:
-	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/source/Scenes/LMap.cpp.o
-.PHONY : source/Scenes/LMap.cpp.o
+src/GraphicWorld/GUIDisplayer/GUIDisplayer.cpp.o:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/src/GraphicWorld/GUIDisplayer/GUIDisplayer.cpp.o
+.PHONY : src/GraphicWorld/GUIDisplayer/GUIDisplayer.cpp.o
 
-source/Scenes/LMap.i: source/Scenes/LMap.cpp.i
+src/GraphicWorld/GUIDisplayer/GUIDisplayer.i: src/GraphicWorld/GUIDisplayer/GUIDisplayer.cpp.i
 
-.PHONY : source/Scenes/LMap.i
+.PHONY : src/GraphicWorld/GUIDisplayer/GUIDisplayer.i
 
 # target to preprocess a source file
-source/Scenes/LMap.cpp.i:
-	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/source/Scenes/LMap.cpp.i
-.PHONY : source/Scenes/LMap.cpp.i
+src/GraphicWorld/GUIDisplayer/GUIDisplayer.cpp.i:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/src/GraphicWorld/GUIDisplayer/GUIDisplayer.cpp.i
+.PHONY : src/GraphicWorld/GUIDisplayer/GUIDisplayer.cpp.i
 
-source/Scenes/LMap.s: source/Scenes/LMap.cpp.s
+src/GraphicWorld/GUIDisplayer/GUIDisplayer.s: src/GraphicWorld/GUIDisplayer/GUIDisplayer.cpp.s
 
-.PHONY : source/Scenes/LMap.s
+.PHONY : src/GraphicWorld/GUIDisplayer/GUIDisplayer.s
 
 # target to generate assembly for a file
-source/Scenes/LMap.cpp.s:
-	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/source/Scenes/LMap.cpp.s
-.PHONY : source/Scenes/LMap.cpp.s
+src/GraphicWorld/GUIDisplayer/GUIDisplayer.cpp.s:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/src/GraphicWorld/GUIDisplayer/GUIDisplayer.cpp.s
+.PHONY : src/GraphicWorld/GUIDisplayer/GUIDisplayer.cpp.s
 
-source/Scenes/LSkyBox.o: source/Scenes/LSkyBox.cpp.o
+src/GraphicWorld/GUIDisplayer/GuiFont/CGUITTFont.o: src/GraphicWorld/GUIDisplayer/GuiFont/CGUITTFont.cpp.o
 
-.PHONY : source/Scenes/LSkyBox.o
+.PHONY : src/GraphicWorld/GUIDisplayer/GuiFont/CGUITTFont.o
 
 # target to build an object file
-source/Scenes/LSkyBox.cpp.o:
-	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/source/Scenes/LSkyBox.cpp.o
-.PHONY : source/Scenes/LSkyBox.cpp.o
+src/GraphicWorld/GUIDisplayer/GuiFont/CGUITTFont.cpp.o:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/src/GraphicWorld/GUIDisplayer/GuiFont/CGUITTFont.cpp.o
+.PHONY : src/GraphicWorld/GUIDisplayer/GuiFont/CGUITTFont.cpp.o
 
-source/Scenes/LSkyBox.i: source/Scenes/LSkyBox.cpp.i
+src/GraphicWorld/GUIDisplayer/GuiFont/CGUITTFont.i: src/GraphicWorld/GUIDisplayer/GuiFont/CGUITTFont.cpp.i
 
-.PHONY : source/Scenes/LSkyBox.i
+.PHONY : src/GraphicWorld/GUIDisplayer/GuiFont/CGUITTFont.i
 
 # target to preprocess a source file
-source/Scenes/LSkyBox.cpp.i:
-	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/source/Scenes/LSkyBox.cpp.i
-.PHONY : source/Scenes/LSkyBox.cpp.i
+src/GraphicWorld/GUIDisplayer/GuiFont/CGUITTFont.cpp.i:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/src/GraphicWorld/GUIDisplayer/GuiFont/CGUITTFont.cpp.i
+.PHONY : src/GraphicWorld/GUIDisplayer/GuiFont/CGUITTFont.cpp.i
 
-source/Scenes/LSkyBox.s: source/Scenes/LSkyBox.cpp.s
+src/GraphicWorld/GUIDisplayer/GuiFont/CGUITTFont.s: src/GraphicWorld/GUIDisplayer/GuiFont/CGUITTFont.cpp.s
 
-.PHONY : source/Scenes/LSkyBox.s
+.PHONY : src/GraphicWorld/GUIDisplayer/GuiFont/CGUITTFont.s
 
 # target to generate assembly for a file
-source/Scenes/LSkyBox.cpp.s:
-	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/source/Scenes/LSkyBox.cpp.s
-.PHONY : source/Scenes/LSkyBox.cpp.s
+src/GraphicWorld/GUIDisplayer/GuiFont/CGUITTFont.cpp.s:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/src/GraphicWorld/GUIDisplayer/GuiFont/CGUITTFont.cpp.s
+.PHONY : src/GraphicWorld/GUIDisplayer/GuiFont/CGUITTFont.cpp.s
 
-source/lemon_functions/lemon_functions.o: source/lemon_functions/lemon_functions.cpp.o
+src/GraphicWorld/GUIDisplayer/TextDisplayer.o: src/GraphicWorld/GUIDisplayer/TextDisplayer.cpp.o
 
-.PHONY : source/lemon_functions/lemon_functions.o
+.PHONY : src/GraphicWorld/GUIDisplayer/TextDisplayer.o
 
 # target to build an object file
-source/lemon_functions/lemon_functions.cpp.o:
-	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/source/lemon_functions/lemon_functions.cpp.o
-.PHONY : source/lemon_functions/lemon_functions.cpp.o
+src/GraphicWorld/GUIDisplayer/TextDisplayer.cpp.o:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/src/GraphicWorld/GUIDisplayer/TextDisplayer.cpp.o
+.PHONY : src/GraphicWorld/GUIDisplayer/TextDisplayer.cpp.o
 
-source/lemon_functions/lemon_functions.i: source/lemon_functions/lemon_functions.cpp.i
+src/GraphicWorld/GUIDisplayer/TextDisplayer.i: src/GraphicWorld/GUIDisplayer/TextDisplayer.cpp.i
 
-.PHONY : source/lemon_functions/lemon_functions.i
+.PHONY : src/GraphicWorld/GUIDisplayer/TextDisplayer.i
 
 # target to preprocess a source file
-source/lemon_functions/lemon_functions.cpp.i:
-	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/source/lemon_functions/lemon_functions.cpp.i
-.PHONY : source/lemon_functions/lemon_functions.cpp.i
+src/GraphicWorld/GUIDisplayer/TextDisplayer.cpp.i:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/src/GraphicWorld/GUIDisplayer/TextDisplayer.cpp.i
+.PHONY : src/GraphicWorld/GUIDisplayer/TextDisplayer.cpp.i
 
-source/lemon_functions/lemon_functions.s: source/lemon_functions/lemon_functions.cpp.s
+src/GraphicWorld/GUIDisplayer/TextDisplayer.s: src/GraphicWorld/GUIDisplayer/TextDisplayer.cpp.s
 
-.PHONY : source/lemon_functions/lemon_functions.s
+.PHONY : src/GraphicWorld/GUIDisplayer/TextDisplayer.s
 
 # target to generate assembly for a file
-source/lemon_functions/lemon_functions.cpp.s:
-	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/source/lemon_functions/lemon_functions.cpp.s
-.PHONY : source/lemon_functions/lemon_functions.cpp.s
+src/GraphicWorld/GUIDisplayer/TextDisplayer.cpp.s:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/src/GraphicWorld/GUIDisplayer/TextDisplayer.cpp.s
+.PHONY : src/GraphicWorld/GUIDisplayer/TextDisplayer.cpp.s
 
-source/main.o: source/main.cpp.o
+src/GraphicWorld/GraphicWorld.o: src/GraphicWorld/GraphicWorld.cpp.o
 
-.PHONY : source/main.o
+.PHONY : src/GraphicWorld/GraphicWorld.o
 
 # target to build an object file
-source/main.cpp.o:
-	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/source/main.cpp.o
-.PHONY : source/main.cpp.o
+src/GraphicWorld/GraphicWorld.cpp.o:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/src/GraphicWorld/GraphicWorld.cpp.o
+.PHONY : src/GraphicWorld/GraphicWorld.cpp.o
 
-source/main.i: source/main.cpp.i
+src/GraphicWorld/GraphicWorld.i: src/GraphicWorld/GraphicWorld.cpp.i
 
-.PHONY : source/main.i
+.PHONY : src/GraphicWorld/GraphicWorld.i
 
 # target to preprocess a source file
-source/main.cpp.i:
-	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/source/main.cpp.i
-.PHONY : source/main.cpp.i
+src/GraphicWorld/GraphicWorld.cpp.i:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/src/GraphicWorld/GraphicWorld.cpp.i
+.PHONY : src/GraphicWorld/GraphicWorld.cpp.i
 
-source/main.s: source/main.cpp.s
+src/GraphicWorld/GraphicWorld.s: src/GraphicWorld/GraphicWorld.cpp.s
 
-.PHONY : source/main.s
+.PHONY : src/GraphicWorld/GraphicWorld.s
 
 # target to generate assembly for a file
-source/main.cpp.s:
-	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/source/main.cpp.s
-.PHONY : source/main.cpp.s
+src/GraphicWorld/GraphicWorld.cpp.s:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/src/GraphicWorld/GraphicWorld.cpp.s
+.PHONY : src/GraphicWorld/GraphicWorld.cpp.s
+
+src/Tools/tools.o: src/Tools/tools.cpp.o
+
+.PHONY : src/Tools/tools.o
+
+# target to build an object file
+src/Tools/tools.cpp.o:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/src/Tools/tools.cpp.o
+.PHONY : src/Tools/tools.cpp.o
+
+src/Tools/tools.i: src/Tools/tools.cpp.i
+
+.PHONY : src/Tools/tools.i
+
+# target to preprocess a source file
+src/Tools/tools.cpp.i:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/src/Tools/tools.cpp.i
+.PHONY : src/Tools/tools.cpp.i
+
+src/Tools/tools.s: src/Tools/tools.cpp.s
+
+.PHONY : src/Tools/tools.s
+
+# target to generate assembly for a file
+src/Tools/tools.cpp.s:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/src/Tools/tools.cpp.s
+.PHONY : src/Tools/tools.cpp.s
+
+src/main.o: src/main.cpp.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -294,24 +321,27 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Damn"
-	@echo "... source/Globals/Globals.o"
-	@echo "... source/Globals/Globals.i"
-	@echo "... source/Globals/Globals.s"
-	@echo "... source/LEventReceiver/LEventReceiver.o"
-	@echo "... source/LEventReceiver/LEventReceiver.i"
-	@echo "... source/LEventReceiver/LEventReceiver.s"
-	@echo "... source/Scenes/LMap.o"
-	@echo "... source/Scenes/LMap.i"
-	@echo "... source/Scenes/LMap.s"
-	@echo "... source/Scenes/LSkyBox.o"
-	@echo "... source/Scenes/LSkyBox.i"
-	@echo "... source/Scenes/LSkyBox.s"
-	@echo "... source/lemon_functions/lemon_functions.o"
-	@echo "... source/lemon_functions/lemon_functions.i"
-	@echo "... source/lemon_functions/lemon_functions.s"
-	@echo "... source/main.o"
-	@echo "... source/main.i"
-	@echo "... source/main.s"
+	@echo "... src/GraphicWorld/EventReceiver.o"
+	@echo "... src/GraphicWorld/EventReceiver.i"
+	@echo "... src/GraphicWorld/EventReceiver.s"
+	@echo "... src/GraphicWorld/GUIDisplayer/GUIDisplayer.o"
+	@echo "... src/GraphicWorld/GUIDisplayer/GUIDisplayer.i"
+	@echo "... src/GraphicWorld/GUIDisplayer/GUIDisplayer.s"
+	@echo "... src/GraphicWorld/GUIDisplayer/GuiFont/CGUITTFont.o"
+	@echo "... src/GraphicWorld/GUIDisplayer/GuiFont/CGUITTFont.i"
+	@echo "... src/GraphicWorld/GUIDisplayer/GuiFont/CGUITTFont.s"
+	@echo "... src/GraphicWorld/GUIDisplayer/TextDisplayer.o"
+	@echo "... src/GraphicWorld/GUIDisplayer/TextDisplayer.i"
+	@echo "... src/GraphicWorld/GUIDisplayer/TextDisplayer.s"
+	@echo "... src/GraphicWorld/GraphicWorld.o"
+	@echo "... src/GraphicWorld/GraphicWorld.i"
+	@echo "... src/GraphicWorld/GraphicWorld.s"
+	@echo "... src/Tools/tools.o"
+	@echo "... src/Tools/tools.i"
+	@echo "... src/Tools/tools.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

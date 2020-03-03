@@ -1,10 +1,11 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Damn.dir/source/Globals/Globals.cpp.o"
-  "CMakeFiles/Damn.dir/source/LEventReceiver/LEventReceiver.cpp.o"
-  "CMakeFiles/Damn.dir/source/Scenes/LMap.cpp.o"
-  "CMakeFiles/Damn.dir/source/Scenes/LSkyBox.cpp.o"
-  "CMakeFiles/Damn.dir/source/lemon_functions/lemon_functions.cpp.o"
-  "CMakeFiles/Damn.dir/source/main.cpp.o"
+  "CMakeFiles/Damn.dir/src/GraphicWorld/EventReceiver.cpp.o"
+  "CMakeFiles/Damn.dir/src/GraphicWorld/GUIDisplayer/GUIDisplayer.cpp.o"
+  "CMakeFiles/Damn.dir/src/GraphicWorld/GUIDisplayer/GuiFont/CGUITTFont.cpp.o"
+  "CMakeFiles/Damn.dir/src/GraphicWorld/GUIDisplayer/TextDisplayer.cpp.o"
+  "CMakeFiles/Damn.dir/src/GraphicWorld/GraphicWorld.cpp.o"
+  "CMakeFiles/Damn.dir/src/Tools/tools.cpp.o"
+  "CMakeFiles/Damn.dir/src/main.cpp.o"
   "Damn"
   "Damn.pdb"
 )

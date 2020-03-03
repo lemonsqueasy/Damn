@@ -44,7 +44,11 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/include"/>
+					<Add directory="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/library/irrlicht_1.8.4/include"/>
+					<Add directory="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/library/irrklang/include"/>
+					<Add directory="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/library/bullet3/include"/>
+					<Add directory="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/library/freetype/include"/>
+					<Add directory="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/library/opengl/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
@@ -66,7 +70,11 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/include"/>
+					<Add directory="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/library/irrlicht_1.8.4/include"/>
+					<Add directory="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/library/irrklang/include"/>
+					<Add directory="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/library/bullet3/include"/>
+					<Add directory="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/library/freetype/include"/>
+					<Add directory="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/library/opengl/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
@@ -82,37 +90,46 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/Globals/Globals.cpp">
+		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/GraphicWorld/EventReceiver.cpp">
 			<Option target="Damn"/>
 		</Unit>
-		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/Globals/Globals.h">
+		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/GraphicWorld/EventReceiver.h">
 			<Option target="Damn"/>
 		</Unit>
-		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/LEventReceiver/LEventReceiver.cpp">
+		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/GraphicWorld/GUIDisplayer/GUIDisplayer.cpp">
 			<Option target="Damn"/>
 		</Unit>
-		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/LEventReceiver/LEventReceiver.h">
+		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/GraphicWorld/GUIDisplayer/GUIDisplayer.h">
 			<Option target="Damn"/>
 		</Unit>
-		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/Scenes/LMap.cpp">
+		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/GraphicWorld/GUIDisplayer/GuiFont/CGUITTFont.cpp">
 			<Option target="Damn"/>
 		</Unit>
-		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/Scenes/LMap.h">
+		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/GraphicWorld/GUIDisplayer/GuiFont/CGUITTFont.h">
 			<Option target="Damn"/>
 		</Unit>
-		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/Scenes/LSkyBox.cpp">
+		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/GraphicWorld/GUIDisplayer/GuiFont/irrUString.h">
 			<Option target="Damn"/>
 		</Unit>
-		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/Scenes/LSkyBox.h">
+		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/GraphicWorld/GUIDisplayer/TextDisplayer.cpp">
 			<Option target="Damn"/>
 		</Unit>
-		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/lemon_functions/lemon_functions.cpp">
+		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/GraphicWorld/GUIDisplayer/TextDisplayer.h">
 			<Option target="Damn"/>
 		</Unit>
-		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/lemon_functions/lemon_functions.h">
+		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/GraphicWorld/GraphicWorld.cpp">
 			<Option target="Damn"/>
 		</Unit>
-		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/main.cpp">
+		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/GraphicWorld/GraphicWorld.h">
+			<Option target="Damn"/>
+		</Unit>
+		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/Tools/tools.cpp">
+			<Option target="Damn"/>
+		</Unit>
+		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/Tools/tools.h">
+			<Option target="Damn"/>
+		</Unit>
+		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/main.cpp">
 			<Option target="Damn"/>
 		</Unit>
 		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/CMakeLists.txt">

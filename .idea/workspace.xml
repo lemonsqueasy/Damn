@@ -13,12 +13,1011 @@
   <component name="ChangeListManager">
     <list default="true" id="e280d8ed-7a4c-4efb-aae6-0a0338f2a311" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/source/LEventReceiver/LEventReceiver.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/source/LEventReceiver/LEventReceiver.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/source/Scenes/LSkyBox.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/source/Scenes/LSkyBox.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/source/globals/Globals.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/source/globals/Globals.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/source/lemon_functions/lemon_functions.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/source/lemon_functions/lemon_functions.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/source/LEventReceiver/LEventReceiver.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/source/Scenes/LMap.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/source/Scenes/LSkyBox.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/source/globals/Globals.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/source/lemon_functions/lemon_functions.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Damn.dir/source/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Damn" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Damn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/Scenes/LSkyBox.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/Scenes/LSkyBox.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Damn.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Damn.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/2DGraphics.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/2DSound.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/Collision.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/CustomScene.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/HelloWorld.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/MeshViewer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/Movement.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/Quake3Map.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/UserInterface.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/GL/glew.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/GL/glxew.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/GL/wglew.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/GLFW/glfw3.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/GLFW/glfw3native.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/KHR/khrplatform.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/glad/glad.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrKlang/common/conio.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrKlang/ik_ESoundEngineOptions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrKlang/ik_ESoundOutputDrivers.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrKlang/ik_EStreamModes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrKlang/ik_IAudioRecorder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrKlang/ik_IAudioStream.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrKlang/ik_IAudioStreamLoader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrKlang/ik_IFileFactory.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrKlang/ik_IFileReader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrKlang/ik_IRefCounted.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrKlang/ik_ISound.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrKlang/ik_ISoundDeviceList.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrKlang/ik_ISoundEffectControl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrKlang/ik_ISoundEngine.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrKlang/ik_ISoundMixedOutputReceiver.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrKlang/ik_ISoundSource.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrKlang/ik_ISoundStopEventReceiver.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrKlang/ik_IVirtualRefCounted.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrKlang/ik_SAudioStreamFormat.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrKlang/ik_irrKlangTypes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrKlang/ik_vec3d.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrKlang/irrKlang.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/CDynamicMeshBuffer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/CIndexBuffer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/CMeshBuffer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/CVertexBuffer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/EAttributes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/ECullingTypes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/EDebugSceneTypes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/EDeviceTypes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/EDriverFeatures.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/EDriverTypes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/EGUIAlignment.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/EGUIElementTypes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/EHardwareBufferFlags.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/EMaterialFlags.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/EMaterialTypes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/EMeshWriterEnums.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/EMessageBoxFlags.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/EPrimitiveTypes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/ESceneNodeAnimatorTypes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/ESceneNodeTypes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/EShaderTypes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/ETerrainElements.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IAnimatedMesh.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IAnimatedMeshMD2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IAnimatedMeshMD3.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IAnimatedMeshSceneNode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IAttributeExchangingObject.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IAttributes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IBillboardSceneNode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IBillboardTextSceneNode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IBoneSceneNode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/ICameraSceneNode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IColladaMeshWriter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/ICursorControl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IDummyTransformationSceneNode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IDynamicMeshBuffer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IEventReceiver.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IFileArchive.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IFileList.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IFileSystem.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IGPUProgrammingServices.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IGUIButton.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IGUICheckBox.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IGUIColorSelectDialog.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IGUIComboBox.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IGUIContextMenu.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IGUIEditBox.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IGUIElement.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IGUIElementFactory.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IGUIEnvironment.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IGUIFileOpenDialog.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IGUIFont.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IGUIFontBitmap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IGUIImage.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IGUIImageList.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IGUIInOutFader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IGUIListBox.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IGUIMeshViewer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IGUIScrollBar.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IGUISkin.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IGUISpinBox.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IGUISpriteBank.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IGUIStaticText.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IGUITabControl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IGUITable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IGUIToolbar.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IGUITreeView.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IGUIWindow.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IGeometryCreator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IImage.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IImageLoader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IImageWriter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IIndexBuffer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/ILightManager.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/ILightSceneNode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/ILogger.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IMaterialRenderer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IMaterialRendererServices.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IMesh.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IMeshBuffer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IMeshCache.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IMeshLoader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IMeshManipulator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IMeshSceneNode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IMeshWriter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IMetaTriangleSelector.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IOSOperator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IParticleAffector.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IParticleAnimatedMeshSceneNodeEmitter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IParticleAttractionAffector.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IParticleBoxEmitter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IParticleCylinderEmitter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IParticleEmitter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IParticleFadeOutAffector.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IParticleGravityAffector.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IParticleMeshEmitter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IParticleRingEmitter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IParticleRotationAffector.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IParticleSphereEmitter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IParticleSystemSceneNode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IQ3LevelMesh.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IQ3Shader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IRandomizer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IReadFile.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IReferenceCounted.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/ISceneCollisionManager.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/ISceneLoader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/ISceneManager.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/ISceneNode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/ISceneNodeAnimator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/ISceneNodeAnimatorCameraFPS.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/ISceneNodeAnimatorCameraMaya.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/ISceneNodeAnimatorCollisionResponse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/ISceneNodeAnimatorFactory.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/ISceneNodeFactory.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/ISceneUserDataSerializer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IShaderConstantSetCallBack.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IShadowVolumeSceneNode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/ISkinnedMesh.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/ITerrainSceneNode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/ITextSceneNode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/ITexture.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/ITimer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/ITriangleSelector.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IVertexBuffer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IVideoDriver.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IVideoModeList.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IVolumeLightSceneNode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IWriteFile.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IXMLReader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IXMLWriter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IrrCompileConfig.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/IrrlichtDevice.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/Keycodes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/Keycodes.h.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/S3DVertex.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/SAnimatedMesh.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/SColor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/SExposedVideoData.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/SIrrCreationParameters.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/SKeyMap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/SLight.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/SMaterial.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/SMaterialLayer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/SMesh.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/SMeshBuffer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/SMeshBufferLightMap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/SMeshBufferTangents.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/SParticle.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/SSharedMeshBuffer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/SSkinMeshBuffer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/SVertexIndex.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/SVertexManipulator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/SViewFrustum.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/SceneParameters.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/aabbox3d.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/coreutil.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/dimension2d.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/driverChoice.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/fast_atof.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/heapsort.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/irrAllocator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/irrArray.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/irrList.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/irrMap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/irrMath.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/irrString.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/irrTypes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/irrXML.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/irrlicht.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/irrpack.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/irrunpack.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/line2d.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/line3d.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/matrix4.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/path.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/plane3d.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/position2d.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/quaternion.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/rect.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/triangle3d.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/vector2d.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/irrlicht/vector3d.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Headers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/QtCore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/cp949codetbl_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/minimum-linux_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qabstractanimation_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qabstracteventdispatcher_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qabstractfileengine_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qabstractitemmodel_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qabstractproxymodel_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qabstractstate_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qabstracttransition_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qanimationgroup_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qbig5codec_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qbytearray_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qbytedata_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qcalendarbackend_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qcalendarmath_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qcborvalue_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qcfsocketnotifier_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qcollator_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qconfig_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qcore_mac_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qcore_unix_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qcoreapplication_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qcorecmdlineargs_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qcoreglobaldata_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qdatastream_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qdataurl_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qdatetime_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qdatetimeparser_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qdeadlinetimer_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qdebug_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qdir_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qdoublescanprint_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qelfparser_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qendian_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qeucjpcodec_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qeuckrcodec_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qeventdispatcher_cf_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qeventdispatcher_glib_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qeventdispatcher_unix_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qeventdispatcher_win_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qeventdispatcher_winrt_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qeventloop_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qeventtransition_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qfactoryloader_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qfile_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qfiledevice_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qfileinfo_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qfileselector_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qfilesystemengine_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qfilesystementry_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qfilesystemiterator_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qfilesystemmetadata_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qfilesystemwatcher_fsevents_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qfilesystemwatcher_inotify_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qfilesystemwatcher_kqueue_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qfilesystemwatcher_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qfilesystemwatcher_polling_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qfilesystemwatcher_win_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qfinalstate_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qfreelist_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qfsfileengine_iterator_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qfsfileengine_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qfunctions_fake_env_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qfunctions_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qfutex_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qfutureinterface_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qfuturewatcher_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qgb18030codec_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qglobal_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qgregoriancalendar_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qharfbuzz_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qhijricalendar_data_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qhijricalendar_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qhistorystate_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qhooks_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qiconvcodec_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qicucodec_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qiodevice_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qipaddress_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qisciicodec_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qislamiccivilcalendar_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qitemselectionmodel_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qjalalicalendar_data_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qjalalicalendar_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qjiscodec_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qjni_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qjnihelpers_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qjpunicode_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qjson_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qjsonparser_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qjsonwriter_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qjuliancalendar_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qlatincodec_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qlibrary_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qlocale_data_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qlocale_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qlocale_tools_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qlockfile_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qlocking_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qlogging_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qloggingregistry_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qmachparser_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qmakearray_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qmemory_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qmetaobject_moc_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qmetaobject_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qmetaobjectbuilder_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qmetatype_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qmetatypeswitcher_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qmilankoviccalendar_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qmimedatabase_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qmimeglobpattern_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qmimemagicrule_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qmimemagicrulematcher_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qmimeprovider_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qmimetype_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qmimetypeparser_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qmutex_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qnoncontiguousbytedevice_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qnumeric_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qobject_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qoffsetstringarray_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qoperatingsystemversion_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qoperatingsystemversion_win_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qorderedmutexlocker_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qparallelanimationgroup_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qplugin_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qpoll_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qppsattribute_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qppsattributeprivate_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qppsobject_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qppsobjectprivate_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qprocess_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qpropertyanimation_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qrandom_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qreadwritelock_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qresource_iterator_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qresource_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qringbuffer_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qromancalendar_data_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qromancalendar_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qsavefile_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qscopedpointer_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qsequentialanimationgroup_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qsettings_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qsharedmemory_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qsignaleventgenerator_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qsignaltransition_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qsimd_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qsimd_x86_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qsimplecodec_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qsjiscodec_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qstate_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qstatemachine_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qstdweb_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qstorageinfo_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qstringalgorithms_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qstringiterator_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qsystemerror_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qsystemlibrary_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qsystemsemaphore_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qt_pch.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qtcore-config_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qtemporaryfile_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qtextcodec_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qtextstream_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qthread_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qthreadpool_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qtimerinfo_unix_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qtimezoneprivate_data_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qtimezoneprivate_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qtldurl_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qtools_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qtrace_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qtranslator_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qtransposeproxymodel_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qtsciicodec_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qunicodetables_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qunicodetools_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qurl_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qurltlds_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qutfcodec_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qvariant_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qvariantanimation_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qwindowscodec_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qwindowspipereader_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qwindowspipewriter_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qwineventnotifier_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qwinregistry_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qxmlstream_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/5.14.1/QtCore/private/qxmlutils_p.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QAbstractAnimation" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QAbstractEventDispatcher" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QAbstractItemModel" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QAbstractListModel" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QAbstractNativeEventFilter" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QAbstractProxyModel" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QAbstractState" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QAbstractTableModel" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QAbstractTransition" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QAnimationDriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QAnimationGroup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QArgument" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QArrayData" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QArrayDataPointer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QArrayDataPointerRef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QAssociativeIterable" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QAtomicInt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QAtomicInteger" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QAtomicPointer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QBEInteger" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QBasicMutex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QBasicTimer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QBigEndianStorageType" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QBitArray" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QBitRef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QBuffer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QByteArray" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QByteArrayData" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QByteArrayDataPtr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QByteArrayList" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QByteArrayListIterator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QByteArrayMatcher" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QByteRef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QCache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QCalendar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QCborArray" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QCborError" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QCborMap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QCborParserError" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QCborStreamReader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QCborStreamWriter" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QCborValue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QCborValueRef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QChar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QCharRef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QChildEvent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QCollator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QCollatorSortKey" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QCommandLineOption" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QCommandLineParser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QConcatenateTablesProxyModel" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QConstOverload" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QContiguousCache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QContiguousCacheData" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QContiguousCacheTypedData" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QCoreApplication" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QCryptographicHash" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QDataStream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QDate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QDateTime" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QDeadlineTimer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QDebug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QDebugStateSaver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QDeferredDeleteEvent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QDir" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QDirIterator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QDynamicPropertyChangeEvent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QEasingCurve" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QElapsedTimer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QEnableSharedFromThis" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QEvent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QEventLoop" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QEventLoopLocker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QEventTransition" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QException" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QExplicitlySharedDataPointer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QFactoryInterface" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QFile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QFileDevice" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QFileInfo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QFileInfoList" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QFileSelector" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QFileSystemWatcher" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QFinalState" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QFlag" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QFlags" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QFloat16" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QFunctionPointer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QFuture" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QFutureInterface" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QFutureInterfaceBase" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QFutureIterator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QFutureSynchronizer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QFutureWatcher" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QFutureWatcherBase" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QGenericArgument" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QGenericReturnArgument" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QGlobalStatic" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QHash" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QHashData" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QHashDummyValue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QHashFunctions" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QHashIterator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QHashNode" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QHistoryState" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QIODevice" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QIdentityProxyModel" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QIncompatibleFlag" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QIntegerForSize" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QInternal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QItemSelection" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QItemSelectionModel" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QItemSelectionRange" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QJsonArray" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QJsonDocument" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QJsonObject" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QJsonParseError" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QJsonValue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QJsonValuePtr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QJsonValueRef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QJsonValueRefPtr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QKeyValueIterator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QLEInteger" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QLatin1Char" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QLatin1Literal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QLatin1String" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QLibrary" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QLibraryInfo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QLine" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QLineF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QLinkedList" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QLinkedListData" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QLinkedListIterator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QLinkedListNode" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QList" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QListData" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QListIterator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QListSpecialMethods" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QLittleEndianStorageType" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QLocale" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QLockFile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QLoggingCategory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QMap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QMapData" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QMapDataBase" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QMapIterator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QMapNode" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QMapNodeBase" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QMargins" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QMarginsF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QMessageAuthenticationCode" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QMessageLogContext" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QMessageLogger" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QMetaClassInfo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QMetaEnum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QMetaMethod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QMetaObject" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QMetaProperty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QMetaType" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QMimeData" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QMimeDatabase" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QMimeType" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QModelIndex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QModelIndexList" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QMultiHash" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QMultiMap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QMutableByteArrayListIterator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QMutableFutureIterator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QMutableHashIterator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QMutableLinkedListIterator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QMutableListIterator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QMutableMapIterator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QMutableSetIterator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QMutableStringListIterator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QMutableVectorIterator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QMutex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QMutexLocker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QNoDebug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QNonConstOverload" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QObject" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QObjectCleanupHandler" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QObjectData" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QObjectList" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QObjectUserData" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QOperatingSystemVersion" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QPair" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QParallelAnimationGroup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QPauseAnimation" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QPersistentModelIndex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QPluginLoader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QPluginMetaData" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QPoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QPointF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QPointer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QProcess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QProcessEnvironment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QPropertyAnimation" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QQueue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QRandomGenerator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QRandomGenerator64" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QReadLocker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QReadWriteLock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QRect" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QRectF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QRecursiveMutex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QRegExp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QRegularExpression" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QRegularExpressionMatch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QRegularExpressionMatchIterator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QResource" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QReturnArgument" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QRunnable" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QSaveFile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QScopeGuard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QScopedArrayPointer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QScopedPointer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QScopedPointerArrayDeleter" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QScopedPointerDeleteLater" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QScopedPointerDeleter" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QScopedPointerObjectDeleteLater" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QScopedPointerPodDeleter" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QScopedValueRollback" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QSemaphore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QSemaphoreReleaser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QSequentialAnimationGroup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QSequentialIterable" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QSet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QSetIterator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QSettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QSharedData" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QSharedDataPointer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QSharedMemory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QSharedPointer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QSignalBlocker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QSignalMapper" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QSignalTransition" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QSize" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QSizeF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QSocketNotifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QSortFilterProxyModel" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QSpecialInteger" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QStack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QStandardPaths" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QState" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QStateMachine" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QStaticArrayData" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QStaticByteArrayData" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QStaticByteArrayMatcherBase" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QStaticPlugin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QStaticStringData" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QStorageInfo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QString" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QStringAlgorithms" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QStringBuilder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QStringData" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QStringDataPtr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QStringList" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QStringListIterator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QStringListModel" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QStringLiteral" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QStringMatcher" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QStringRef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QStringView" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QSysInfo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QSystemSemaphore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QTemporaryDir" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QTemporaryFile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QTextBoundaryFinder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QTextCodec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QTextDecoder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QTextEncoder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QTextStream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QTextStreamFunction" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QTextStreamManipulator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QThread" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QThreadPool" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QThreadStorage" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QThreadStorageData" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QTime" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QTimeLine" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QTimeZone" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QTimer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QTimerEvent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QTranslator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QTransposeProxyModel" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QTypeInfo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QTypeInfoMerger" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QTypeInfoQuery" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QUnhandledException" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QUrl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QUrlQuery" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QUrlTwoFlags" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QUuid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QVarLengthArray" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QVariant" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QVariantAnimation" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QVariantComparisonHelper" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QVariantHash" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QVariantList" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QVariantMap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QVector" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QVectorIterator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QVersionNumber" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QWaitCondition" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QWeakPointer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QWinEventNotifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QWriteLocker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QXmlStreamAttribute" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QXmlStreamAttributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QXmlStreamEntityDeclaration" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QXmlStreamEntityDeclarations" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QXmlStreamEntityResolver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QXmlStreamNamespaceDeclaration" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QXmlStreamNamespaceDeclarations" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QXmlStreamNotationDeclaration" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QXmlStreamNotationDeclarations" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QXmlStreamReader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QXmlStreamStringRef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QXmlStreamWriter" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/Q_PID" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/Q_SECURITY_ATTRIBUTES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/Q_STARTUPINFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/Qt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QtAlgorithms" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QtCborCommon" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QtCleanUpFunction" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QtConfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QtContainerFwd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QtCore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QtCoreDepends" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QtCoreVersion" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QtDebug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QtEndian" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QtGlobal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QtMath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QtMessageHandler" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QtMsgHandler" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QtNumeric" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QtPlugin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QtPluginInstanceFunction" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/QtPluginMetaDataFunction" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qabstractanimation.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qabstracteventdispatcher.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qabstractitemmodel.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qabstractnativeeventfilter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qabstractproxymodel.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qabstractstate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qabstracttransition.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qalgorithms.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qanimationgroup.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qarraydata.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qarraydataops.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qarraydatapointer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qatomic.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qatomic_bootstrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qatomic_cxx11.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qatomic_msvc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qbasicatomic.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qbasictimer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qbitarray.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qbuffer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qbytearray.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qbytearraylist.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qbytearraymatcher.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qcache.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qcalendar.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qcborarray.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qcborcommon.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qcbormap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qcborstream.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qcborvalue.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qchar.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qcollator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qcommandlineoption.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qcommandlineparser.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qcompilerdetection.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qconcatenatetablesproxymodel.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qconfig-bootstrapped.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qconfig.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qcontainerfwd.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qcontainertools_impl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qcontiguouscache.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qcoreapplication.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qcoreevent.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qcryptographichash.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qdatastream.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qdatetime.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qdeadlinetimer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qdebug.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qdir.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qdiriterator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qeasingcurve.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qelapsedtimer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qendian.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qeventloop.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qeventtransition.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qexception.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qfactoryinterface.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qfile.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qfiledevice.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qfileinfo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qfileselector.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qfilesystemwatcher.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qfinalstate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qflags.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qfloat16.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qfunctions_nacl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qfunctions_vxworks.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qfunctions_winrt.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qfuture.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qfutureinterface.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qfuturesynchronizer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qfuturewatcher.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qgenericatomic.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qglobal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qglobalstatic.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qhash.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qhashfunctions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qhistorystate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qidentityproxymodel.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qiodevice.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qisenum.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qitemselectionmodel.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qiterator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qjsonarray.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qjsondocument.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qjsonobject.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qjsonvalue.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qlibrary.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qlibraryinfo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qline.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qlinkedlist.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qlist.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qlocale.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qlockfile.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qlogging.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qloggingcategory.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qmap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qmargins.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qmath.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qmessageauthenticationcode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qmetaobject.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qmetatype.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qmimedata.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qmimedatabase.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qmimetype.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qmutex.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qnamespace.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qnumeric.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qobject.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qobject_impl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qobjectcleanuphandler.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qobjectdefs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qobjectdefs_impl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qoperatingsystemversion.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qpair.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qparallelanimationgroup.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qpauseanimation.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qplugin.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qpluginloader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qpoint.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qpointer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qprocess.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qprocessordetection.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qpropertyanimation.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qqueue.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qrandom.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qreadwritelock.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qrect.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qrefcount.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qregexp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qregularexpression.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qresource.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qresultstore.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qrunnable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qsavefile.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qscopedpointer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qscopedvaluerollback.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qscopeguard.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qsemaphore.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qsequentialanimationgroup.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qset.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qsettings.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qshareddata.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qsharedmemory.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qsharedpointer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qsharedpointer_impl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qsignalmapper.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qsignaltransition.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qsize.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qsocketnotifier.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qsortfilterproxymodel.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qstack.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qstandardpaths.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qstate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qstatemachine.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qstorageinfo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qstring.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qstringalgorithms.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qstringbuilder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qstringlist.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qstringlistmodel.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qstringliteral.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qstringmatcher.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qstringview.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qsysinfo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qsystemdetection.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qsystemsemaphore.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qt_windows.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qtcore-config.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qtcoreversion.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qtemporarydir.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qtemporaryfile.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qtestsupport_core.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qtextboundaryfinder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qtextcodec.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qtextstream.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qthread.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qthreadpool.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qthreadstorage.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qtimeline.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qtimer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qtimezone.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qtranslator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qtransposeproxymodel.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qtypeinfo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qtypetraits.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qurl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qurlquery.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/quuid.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qvariant.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qvariantanimation.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qvarlengtharray.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qvector.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qversionnumber.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qversiontagging.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qwaitcondition.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qwineventnotifier.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Headers/qxmlstream.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/QtCore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Resources/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/5/Resources/QtCore.prl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/QtCore.framework/Versions/Current" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ikpFLAC.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ikpMP3.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/libGLEW.2.1.0.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/libGLEW.2.1.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/libGLEW.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/libGLEW.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/libIrrlicht.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/libIrrlicht.a.compiledBySelf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/libglfw.3.3.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/libglfw.3.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/libglfw.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/libirrklang.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/map/skybox_tb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/map/skybox_wall.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/DamnGame.dmg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/Globals/Globals.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/Globals/Globals.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/LEventReceiver/LEventReceiver.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/LEventReceiver/LEventReceiver.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/Scenes/LMap.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/Scenes/LMap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/Scenes/LSkyBox.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/Scenes/LSkyBox.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/lemon_functions/lemon_functions.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/lemon_functions/lemon_functions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/main.cpp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +1032,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Y1bsMfh67ruj64hF15iI1mVU26" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -43,19 +1044,37 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="dynamic.analysis.tools.valgrind" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/GraphicWorld/GUIDisplayer" />
       <recent name="$PROJECT_DIR$/source/LEventReceiver" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="CMake Application.Damn">
     <configuration name="Damn" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Damn" TARGET_NAME="Damn" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Damn" RUN_TARGET_NAME="Damn">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="pack.sh" type="ShConfigurationType" temporary="true">
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/release/pack.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/release" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.Damn" />
+      <item itemvalue="Shell Script.pack.sh" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Shell Script.pack.sh" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -76,7 +1095,22 @@
       <workItem from="1582424635369" duration="5476000" />
       <workItem from="1582468680332" duration="4338000" />
       <workItem from="1582481288405" duration="47000" />
-      <workItem from="1582510686592" duration="48429000" />
+      <workItem from="1582510686592" duration="49328000" />
+      <workItem from="1582699779626" duration="40076000" />
+      <workItem from="1582808129915" duration="53000" />
+      <workItem from="1582808185802" duration="192000" />
+      <workItem from="1582808397020" duration="15481000" />
+      <workItem from="1583040461949" duration="2101000" />
+      <workItem from="1583068020957" duration="9875000" />
+      <workItem from="1583115677784" duration="21576000" />
+      <workItem from="1583164393216" duration="756000" />
+      <workItem from="1583205367378" duration="38000" />
+      <workItem from="1583205418027" duration="4234000" />
+      <workItem from="1583211553547" duration="4916000" />
+      <workItem from="1583216491551" duration="15258000" />
+      <workItem from="1583240975051" duration="1054000" />
+      <workItem from="1583242079414" duration="128000" />
+      <workItem from="1583242221819" duration="2560000" />
     </task>
     <servers />
   </component>
@@ -93,62 +1127,91 @@
       <screen x="0" y="23" width="1680" height="964" />
     </state>
     <state x="481" y="170" key="#Notifications/0.23.1680.964@0.23.1680.964" timestamp="1582115164682" />
+    <state x="679" y="292" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583210155370">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state x="679" y="292" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.976@0.23.1680.976" timestamp="1583210155370" />
     <state x="397" y="108" key="CommitChangelistDialog2" timestamp="1582121532990">
       <screen x="0" y="23" width="1680" height="965" />
     </state>
     <state x="397" y="108" key="CommitChangelistDialog2/0.23.1680.965@0.23.1680.965" timestamp="1582121532990" />
-    <state width="1637" height="230" key="GridCell.Tab.0.bottom" timestamp="1582698830826">
-      <screen x="0" y="23" width="1680" height="972" />
+    <state width="1638" height="233" key="GridCell.Tab.0.bottom" timestamp="1583244952975">
+      <screen x="0" y="23" width="1680" height="971" />
     </state>
-    <state width="1548" height="230" key="GridCell.Tab.0.bottom/0.23.1680.962@0.23.1680.962" timestamp="1582510917357" />
-    <state width="1548" height="230" key="GridCell.Tab.0.bottom/0.23.1680.964@0.23.1680.964" timestamp="1582603495129" />
-    <state width="1548" height="230" key="GridCell.Tab.0.bottom/0.23.1680.965@0.23.1680.965" timestamp="1582611621245" />
-    <state width="1615" height="230" key="GridCell.Tab.0.bottom/0.23.1680.967@0.23.1680.967" timestamp="1582613147948" />
-    <state width="1548" height="230" key="GridCell.Tab.0.bottom/0.23.1680.971@0.23.1680.971" timestamp="1582560659281" />
-    <state width="1637" height="230" key="GridCell.Tab.0.bottom/0.23.1680.972@0.23.1680.972" timestamp="1582698830826" />
-    <state width="1637" height="230" key="GridCell.Tab.0.bottom/0.23.1680.973@0.23.1680.973" timestamp="1582689326248" />
-    <state width="1548" height="230" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1582431250727" />
-    <state width="1548" height="230" key="GridCell.Tab.0.bottom/0.23.1680.976@0.23.1680.976" timestamp="1582430412657" />
-    <state width="1637" height="230" key="GridCell.Tab.0.center" timestamp="1582698830825">
-      <screen x="0" y="23" width="1680" height="972" />
+    <state width="1637" height="230" key="GridCell.Tab.0.bottom/0.23.1680.962@0.23.1680.962" timestamp="1582812096592" />
+    <state width="1637" height="230" key="GridCell.Tab.0.bottom/0.23.1680.964@0.23.1680.964" timestamp="1582857759985" />
+    <state width="1637" height="230" key="GridCell.Tab.0.bottom/0.23.1680.965@0.23.1680.965" timestamp="1582858179014" />
+    <state width="1637" height="188" key="GridCell.Tab.0.bottom/0.23.1680.967@0.23.1680.967" timestamp="1583200841430" />
+    <state width="1638" height="233" key="GridCell.Tab.0.bottom/0.23.1680.971@0.23.1680.971" timestamp="1583244952975" />
+    <state width="1637" height="188" key="GridCell.Tab.0.bottom/0.23.1680.972@0.23.1680.972" timestamp="1583223833039" />
+    <state width="1637" height="188" key="GridCell.Tab.0.bottom/0.23.1680.973@0.23.1680.973" timestamp="1583206306701" />
+    <state width="1637" height="188" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1583210657621" />
+    <state width="1637" height="188" key="GridCell.Tab.0.bottom/0.23.1680.976@0.23.1680.976" timestamp="1583210135799" />
+    <state width="1638" height="233" key="GridCell.Tab.0.center" timestamp="1583244952974">
+      <screen x="0" y="23" width="1680" height="971" />
     </state>
-    <state width="1548" height="230" key="GridCell.Tab.0.center/0.23.1680.962@0.23.1680.962" timestamp="1582510917356" />
-    <state width="1548" height="230" key="GridCell.Tab.0.center/0.23.1680.964@0.23.1680.964" timestamp="1582603495128" />
-    <state width="1548" height="230" key="GridCell.Tab.0.center/0.23.1680.965@0.23.1680.965" timestamp="1582611621245" />
-    <state width="1615" height="230" key="GridCell.Tab.0.center/0.23.1680.967@0.23.1680.967" timestamp="1582613147947" />
-    <state width="1548" height="230" key="GridCell.Tab.0.center/0.23.1680.971@0.23.1680.971" timestamp="1582560659280" />
-    <state width="1637" height="230" key="GridCell.Tab.0.center/0.23.1680.972@0.23.1680.972" timestamp="1582698830825" />
-    <state width="1637" height="230" key="GridCell.Tab.0.center/0.23.1680.973@0.23.1680.973" timestamp="1582689326247" />
-    <state width="1548" height="230" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1582431250727" />
-    <state width="1548" height="230" key="GridCell.Tab.0.center/0.23.1680.976@0.23.1680.976" timestamp="1582430412656" />
-    <state width="1637" height="230" key="GridCell.Tab.0.left" timestamp="1582698830824">
-      <screen x="0" y="23" width="1680" height="972" />
+    <state width="1637" height="230" key="GridCell.Tab.0.center/0.23.1680.962@0.23.1680.962" timestamp="1582812096591" />
+    <state width="1637" height="230" key="GridCell.Tab.0.center/0.23.1680.964@0.23.1680.964" timestamp="1582857759984" />
+    <state width="1637" height="230" key="GridCell.Tab.0.center/0.23.1680.965@0.23.1680.965" timestamp="1582858179014" />
+    <state width="1637" height="188" key="GridCell.Tab.0.center/0.23.1680.967@0.23.1680.967" timestamp="1583200841429" />
+    <state width="1638" height="233" key="GridCell.Tab.0.center/0.23.1680.971@0.23.1680.971" timestamp="1583244952974" />
+    <state width="1637" height="188" key="GridCell.Tab.0.center/0.23.1680.972@0.23.1680.972" timestamp="1583223833038" />
+    <state width="1637" height="188" key="GridCell.Tab.0.center/0.23.1680.973@0.23.1680.973" timestamp="1583206306701" />
+    <state width="1637" height="188" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1583210657621" />
+    <state width="1637" height="188" key="GridCell.Tab.0.center/0.23.1680.976@0.23.1680.976" timestamp="1583210135799" />
+    <state width="1638" height="233" key="GridCell.Tab.0.left" timestamp="1583244952973">
+      <screen x="0" y="23" width="1680" height="971" />
     </state>
-    <state width="1548" height="230" key="GridCell.Tab.0.left/0.23.1680.962@0.23.1680.962" timestamp="1582510917355" />
-    <state width="1548" height="230" key="GridCell.Tab.0.left/0.23.1680.964@0.23.1680.964" timestamp="1582603495127" />
-    <state width="1548" height="230" key="GridCell.Tab.0.left/0.23.1680.965@0.23.1680.965" timestamp="1582611621244" />
-    <state width="1615" height="230" key="GridCell.Tab.0.left/0.23.1680.967@0.23.1680.967" timestamp="1582613147947" />
-    <state width="1548" height="230" key="GridCell.Tab.0.left/0.23.1680.971@0.23.1680.971" timestamp="1582560659279" />
-    <state width="1637" height="230" key="GridCell.Tab.0.left/0.23.1680.972@0.23.1680.972" timestamp="1582698830824" />
-    <state width="1637" height="230" key="GridCell.Tab.0.left/0.23.1680.973@0.23.1680.973" timestamp="1582689326246" />
-    <state width="1548" height="230" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1582431250726" />
-    <state width="1548" height="230" key="GridCell.Tab.0.left/0.23.1680.976@0.23.1680.976" timestamp="1582430412656" />
-    <state width="1637" height="230" key="GridCell.Tab.0.right" timestamp="1582698830825">
-      <screen x="0" y="23" width="1680" height="972" />
+    <state width="1637" height="230" key="GridCell.Tab.0.left/0.23.1680.962@0.23.1680.962" timestamp="1582812096591" />
+    <state width="1637" height="230" key="GridCell.Tab.0.left/0.23.1680.964@0.23.1680.964" timestamp="1582857759984" />
+    <state width="1637" height="230" key="GridCell.Tab.0.left/0.23.1680.965@0.23.1680.965" timestamp="1582858179013" />
+    <state width="1637" height="188" key="GridCell.Tab.0.left/0.23.1680.967@0.23.1680.967" timestamp="1583200841428" />
+    <state width="1638" height="233" key="GridCell.Tab.0.left/0.23.1680.971@0.23.1680.971" timestamp="1583244952973" />
+    <state width="1637" height="188" key="GridCell.Tab.0.left/0.23.1680.972@0.23.1680.972" timestamp="1583223833038" />
+    <state width="1637" height="188" key="GridCell.Tab.0.left/0.23.1680.973@0.23.1680.973" timestamp="1583206306700" />
+    <state width="1637" height="188" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1583210657620" />
+    <state width="1637" height="188" key="GridCell.Tab.0.left/0.23.1680.976@0.23.1680.976" timestamp="1583210135798" />
+    <state width="1638" height="233" key="GridCell.Tab.0.right" timestamp="1583244952974">
+      <screen x="0" y="23" width="1680" height="971" />
     </state>
-    <state width="1548" height="230" key="GridCell.Tab.0.right/0.23.1680.962@0.23.1680.962" timestamp="1582510917356" />
-    <state width="1548" height="230" key="GridCell.Tab.0.right/0.23.1680.964@0.23.1680.964" timestamp="1582603495128" />
-    <state width="1548" height="230" key="GridCell.Tab.0.right/0.23.1680.965@0.23.1680.965" timestamp="1582611621245" />
-    <state width="1615" height="230" key="GridCell.Tab.0.right/0.23.1680.967@0.23.1680.967" timestamp="1582613147948" />
-    <state width="1548" height="230" key="GridCell.Tab.0.right/0.23.1680.971@0.23.1680.971" timestamp="1582560659280" />
-    <state width="1637" height="230" key="GridCell.Tab.0.right/0.23.1680.972@0.23.1680.972" timestamp="1582698830825" />
-    <state width="1637" height="230" key="GridCell.Tab.0.right/0.23.1680.973@0.23.1680.973" timestamp="1582689326247" />
-    <state width="1548" height="230" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1582431250727" />
-    <state width="1548" height="230" key="GridCell.Tab.0.right/0.23.1680.976@0.23.1680.976" timestamp="1582430412657" />
-    <state x="280" y="145" key="SettingsEditor" timestamp="1582689385843">
-      <screen x="0" y="23" width="1680" height="973" />
+    <state width="1637" height="230" key="GridCell.Tab.0.right/0.23.1680.962@0.23.1680.962" timestamp="1582812096592" />
+    <state width="1637" height="230" key="GridCell.Tab.0.right/0.23.1680.964@0.23.1680.964" timestamp="1582857759985" />
+    <state width="1637" height="230" key="GridCell.Tab.0.right/0.23.1680.965@0.23.1680.965" timestamp="1582858179014" />
+    <state width="1637" height="188" key="GridCell.Tab.0.right/0.23.1680.967@0.23.1680.967" timestamp="1583200841429" />
+    <state width="1638" height="233" key="GridCell.Tab.0.right/0.23.1680.971@0.23.1680.971" timestamp="1583244952974" />
+    <state width="1637" height="188" key="GridCell.Tab.0.right/0.23.1680.972@0.23.1680.972" timestamp="1583223833039" />
+    <state width="1637" height="188" key="GridCell.Tab.0.right/0.23.1680.973@0.23.1680.973" timestamp="1583206306701" />
+    <state width="1637" height="188" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1583210657621" />
+    <state width="1637" height="188" key="GridCell.Tab.0.right/0.23.1680.976@0.23.1680.976" timestamp="1583210135799" />
+    <state width="1638" height="322" key="GridCell.Tab.1.bottom" timestamp="1583244588342">
+      <screen x="0" y="23" width="1680" height="971" />
+    </state>
+    <state width="1638" height="322" key="GridCell.Tab.1.bottom/0.23.1680.971@0.23.1680.971" timestamp="1583244588342" />
+    <state width="1637" height="315" key="GridCell.Tab.1.bottom/0.23.1680.972@0.23.1680.972" timestamp="1583088190380" />
+    <state width="1638" height="322" key="GridCell.Tab.1.center" timestamp="1583244588342">
+      <screen x="0" y="23" width="1680" height="971" />
+    </state>
+    <state width="1638" height="322" key="GridCell.Tab.1.center/0.23.1680.971@0.23.1680.971" timestamp="1583244588342" />
+    <state width="1637" height="315" key="GridCell.Tab.1.center/0.23.1680.972@0.23.1680.972" timestamp="1583088190380" />
+    <state width="1638" height="322" key="GridCell.Tab.1.left" timestamp="1583244588341">
+      <screen x="0" y="23" width="1680" height="971" />
+    </state>
+    <state width="1638" height="322" key="GridCell.Tab.1.left/0.23.1680.971@0.23.1680.971" timestamp="1583244588341" />
+    <state width="1637" height="315" key="GridCell.Tab.1.left/0.23.1680.972@0.23.1680.972" timestamp="1583088190379" />
+    <state width="1638" height="322" key="GridCell.Tab.1.right" timestamp="1583244588342">
+      <screen x="0" y="23" width="1680" height="971" />
+    </state>
+    <state width="1638" height="322" key="GridCell.Tab.1.right/0.23.1680.971@0.23.1680.971" timestamp="1583244588342" />
+    <state width="1637" height="315" key="GridCell.Tab.1.right/0.23.1680.972@0.23.1680.972" timestamp="1583088190380" />
+    <state x="280" y="145" key="SettingsEditor" timestamp="1583244547619">
+      <screen x="0" y="23" width="1680" height="971" />
     </state>
     <state x="280" y="144" key="SettingsEditor/0.23.1680.964@0.23.1680.964" timestamp="1582115225980" />
+    <state x="280" y="145" key="SettingsEditor/0.23.1680.971@0.23.1680.971" timestamp="1583244547619" />
     <state x="280" y="145" key="SettingsEditor/0.23.1680.973@0.23.1680.973" timestamp="1582689385843" />
+    <state x="696" y="237" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1583205973137">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state x="696" y="237" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1680.973@0.23.1680.973" timestamp="1583205973137" />
   </component>
 </project>

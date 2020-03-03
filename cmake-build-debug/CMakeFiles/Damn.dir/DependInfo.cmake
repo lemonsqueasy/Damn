@@ -4,18 +4,23 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/Globals/Globals.cpp" "/Users/monle/Documents/OSXProjects/CLionProjects/Damn/cmake-build-debug/CMakeFiles/Damn.dir/source/Globals/Globals.cpp.o"
-  "/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/LEventReceiver/LEventReceiver.cpp" "/Users/monle/Documents/OSXProjects/CLionProjects/Damn/cmake-build-debug/CMakeFiles/Damn.dir/source/LEventReceiver/LEventReceiver.cpp.o"
-  "/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/Scenes/LMap.cpp" "/Users/monle/Documents/OSXProjects/CLionProjects/Damn/cmake-build-debug/CMakeFiles/Damn.dir/source/Scenes/LMap.cpp.o"
-  "/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/Scenes/LSkyBox.cpp" "/Users/monle/Documents/OSXProjects/CLionProjects/Damn/cmake-build-debug/CMakeFiles/Damn.dir/source/Scenes/LSkyBox.cpp.o"
-  "/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/lemon_functions/lemon_functions.cpp" "/Users/monle/Documents/OSXProjects/CLionProjects/Damn/cmake-build-debug/CMakeFiles/Damn.dir/source/lemon_functions/lemon_functions.cpp.o"
-  "/Users/monle/Documents/OSXProjects/CLionProjects/Damn/source/main.cpp" "/Users/monle/Documents/OSXProjects/CLionProjects/Damn/cmake-build-debug/CMakeFiles/Damn.dir/source/main.cpp.o"
+  "/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/GraphicWorld/EventReceiver.cpp" "/Users/monle/Documents/OSXProjects/CLionProjects/Damn/cmake-build-debug/CMakeFiles/Damn.dir/src/GraphicWorld/EventReceiver.cpp.o"
+  "/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/GraphicWorld/GUIDisplayer/GUIDisplayer.cpp" "/Users/monle/Documents/OSXProjects/CLionProjects/Damn/cmake-build-debug/CMakeFiles/Damn.dir/src/GraphicWorld/GUIDisplayer/GUIDisplayer.cpp.o"
+  "/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/GraphicWorld/GUIDisplayer/GuiFont/CGUITTFont.cpp" "/Users/monle/Documents/OSXProjects/CLionProjects/Damn/cmake-build-debug/CMakeFiles/Damn.dir/src/GraphicWorld/GUIDisplayer/GuiFont/CGUITTFont.cpp.o"
+  "/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/GraphicWorld/GUIDisplayer/TextDisplayer.cpp" "/Users/monle/Documents/OSXProjects/CLionProjects/Damn/cmake-build-debug/CMakeFiles/Damn.dir/src/GraphicWorld/GUIDisplayer/TextDisplayer.cpp.o"
+  "/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/GraphicWorld/GraphicWorld.cpp" "/Users/monle/Documents/OSXProjects/CLionProjects/Damn/cmake-build-debug/CMakeFiles/Damn.dir/src/GraphicWorld/GraphicWorld.cpp.o"
+  "/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/Tools/tools.cpp" "/Users/monle/Documents/OSXProjects/CLionProjects/Damn/cmake-build-debug/CMakeFiles/Damn.dir/src/Tools/tools.cpp.o"
+  "/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/main.cpp" "/Users/monle/Documents/OSXProjects/CLionProjects/Damn/cmake-build-debug/CMakeFiles/Damn.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../include"
+  "../library/irrlicht_1.8.4/include"
+  "../library/irrklang/include"
+  "../library/bullet3/include"
+  "../library/freetype/include"
+  "../library/opengl/include"
   )
 
 # Targets to which this target links.
