@@ -15,6 +15,7 @@ namespace lemon
                 lemon::tools::getExePath("../media/font/msyh.ttf"),
                 SIZE_OF_FONT
                 );
+        this->strForDisplay = nullptr;
         this->position = irr::core::rect<irr::s32>(0, 0, 0, 0);
         this->color = irr::video::SColor(255, 255, 255 ,255);
         iguiEnvironment->getSkin()->setFont(this->chineseFont);

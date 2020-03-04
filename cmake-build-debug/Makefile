@@ -258,6 +258,87 @@ src/GraphicWorld/GraphicWorld.cpp.s:
 	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/src/GraphicWorld/GraphicWorld.cpp.s
 .PHONY : src/GraphicWorld/GraphicWorld.cpp.s
 
+src/LemonWorld/LemonObject.o: src/LemonWorld/LemonObject.cpp.o
+
+.PHONY : src/LemonWorld/LemonObject.o
+
+# target to build an object file
+src/LemonWorld/LemonObject.cpp.o:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/src/LemonWorld/LemonObject.cpp.o
+.PHONY : src/LemonWorld/LemonObject.cpp.o
+
+src/LemonWorld/LemonObject.i: src/LemonWorld/LemonObject.cpp.i
+
+.PHONY : src/LemonWorld/LemonObject.i
+
+# target to preprocess a source file
+src/LemonWorld/LemonObject.cpp.i:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/src/LemonWorld/LemonObject.cpp.i
+.PHONY : src/LemonWorld/LemonObject.cpp.i
+
+src/LemonWorld/LemonObject.s: src/LemonWorld/LemonObject.cpp.s
+
+.PHONY : src/LemonWorld/LemonObject.s
+
+# target to generate assembly for a file
+src/LemonWorld/LemonObject.cpp.s:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/src/LemonWorld/LemonObject.cpp.s
+.PHONY : src/LemonWorld/LemonObject.cpp.s
+
+src/LemonWorld/LemonWorld.o: src/LemonWorld/LemonWorld.cpp.o
+
+.PHONY : src/LemonWorld/LemonWorld.o
+
+# target to build an object file
+src/LemonWorld/LemonWorld.cpp.o:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/src/LemonWorld/LemonWorld.cpp.o
+.PHONY : src/LemonWorld/LemonWorld.cpp.o
+
+src/LemonWorld/LemonWorld.i: src/LemonWorld/LemonWorld.cpp.i
+
+.PHONY : src/LemonWorld/LemonWorld.i
+
+# target to preprocess a source file
+src/LemonWorld/LemonWorld.cpp.i:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/src/LemonWorld/LemonWorld.cpp.i
+.PHONY : src/LemonWorld/LemonWorld.cpp.i
+
+src/LemonWorld/LemonWorld.s: src/LemonWorld/LemonWorld.cpp.s
+
+.PHONY : src/LemonWorld/LemonWorld.s
+
+# target to generate assembly for a file
+src/LemonWorld/LemonWorld.cpp.s:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/src/LemonWorld/LemonWorld.cpp.s
+.PHONY : src/LemonWorld/LemonWorld.cpp.s
+
+src/PhysicsWorld/PhysicsWorld.o: src/PhysicsWorld/PhysicsWorld.cpp.o
+
+.PHONY : src/PhysicsWorld/PhysicsWorld.o
+
+# target to build an object file
+src/PhysicsWorld/PhysicsWorld.cpp.o:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/src/PhysicsWorld/PhysicsWorld.cpp.o
+.PHONY : src/PhysicsWorld/PhysicsWorld.cpp.o
+
+src/PhysicsWorld/PhysicsWorld.i: src/PhysicsWorld/PhysicsWorld.cpp.i
+
+.PHONY : src/PhysicsWorld/PhysicsWorld.i
+
+# target to preprocess a source file
+src/PhysicsWorld/PhysicsWorld.cpp.i:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/src/PhysicsWorld/PhysicsWorld.cpp.i
+.PHONY : src/PhysicsWorld/PhysicsWorld.cpp.i
+
+src/PhysicsWorld/PhysicsWorld.s: src/PhysicsWorld/PhysicsWorld.cpp.s
+
+.PHONY : src/PhysicsWorld/PhysicsWorld.s
+
+# target to generate assembly for a file
+src/PhysicsWorld/PhysicsWorld.cpp.s:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/src/PhysicsWorld/PhysicsWorld.cpp.s
+.PHONY : src/PhysicsWorld/PhysicsWorld.cpp.s
+
 src/Tools/tools.o: src/Tools/tools.cpp.o
 
 .PHONY : src/Tools/tools.o
@@ -336,6 +417,15 @@ help:
 	@echo "... src/GraphicWorld/GraphicWorld.o"
 	@echo "... src/GraphicWorld/GraphicWorld.i"
 	@echo "... src/GraphicWorld/GraphicWorld.s"
+	@echo "... src/LemonWorld/LemonObject.o"
+	@echo "... src/LemonWorld/LemonObject.i"
+	@echo "... src/LemonWorld/LemonObject.s"
+	@echo "... src/LemonWorld/LemonWorld.o"
+	@echo "... src/LemonWorld/LemonWorld.i"
+	@echo "... src/LemonWorld/LemonWorld.s"
+	@echo "... src/PhysicsWorld/PhysicsWorld.o"
+	@echo "... src/PhysicsWorld/PhysicsWorld.i"
+	@echo "... src/PhysicsWorld/PhysicsWorld.s"
 	@echo "... src/Tools/tools.o"
 	@echo "... src/Tools/tools.i"
 	@echo "... src/Tools/tools.s"

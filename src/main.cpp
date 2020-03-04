@@ -2,24 +2,24 @@
 // Created by Mon Le on 2020/3/3.
 //
 #include <unistd.h>
-#include "GraphicWorld/GraphicWorld.h"
+#include "LemonWorld/LemonWorld.h"
 
 int main()
 {
-    lemon::GraphicWorld* graphicWorld = new lemon::GraphicWorld();
+    lemon::LemonWorld* lemonWorld = new lemon::LemonWorld();
 
     while(true)
     {
 
-        if(!graphicWorld->drawWorld())
+        if(!lemonWorld->run())
             break;
 
 
         usleep(100);
     }
 
-    delete graphicWorld;
-    graphicWorld = nullptr;
+    delete lemonWorld;
+    lemonWorld = nullptr;
 
     return 0;
 }

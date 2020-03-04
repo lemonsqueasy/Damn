@@ -48,7 +48,7 @@ add_executable(${PROJECT_NAME}
         src/GraphicWorld/GUIDisplayer/GuiFont/CGUITTFont.h
         src/GraphicWorld/GUIDisplayer/GuiFont/irrUString.h
         src/GraphicWorld/EventReceiver.cpp
-        src/GraphicWorld/EventReceiver.h src/GraphicWorld/GUIDisplayer/TextDisplayer.cpp src/GraphicWorld/GUIDisplayer/TextDisplayer.h src/GraphicWorld/GUIDisplayer/GUIDisplayer.cpp src/GraphicWorld/GUIDisplayer/GUIDisplayer.h)
+        src/GraphicWorld/EventReceiver.h src/GraphicWorld/GUIDisplayer/TextDisplayer.cpp src/GraphicWorld/GUIDisplayer/TextDisplayer.h src/GraphicWorld/GUIDisplayer/GUIDisplayer.cpp src/GraphicWorld/GUIDisplayer/GUIDisplayer.h src/PhysicsWorld/PhysicsWorld.cpp src/PhysicsWorld/PhysicsWorld.h src/LemonWorld/LemonWorld.cpp src/LemonWorld/LemonWorld.h src/LemonWorld/LemonObject.cpp src/LemonWorld/LemonObject.h)
 
 target_link_libraries(${PROJECT_NAME} -lIrrlicht)
 target_link_libraries(${PROJECT_NAME} -lirrklang)
