@@ -1,26 +1,13 @@
-//
-// Created by Mon Le on 2020/3/3.
-//
-#include <unistd.h>
 #include "LemonWorld/LemonWorld.h"
+#include "LemonWorld/WorldDriver.h"
 
 int main()
 {
     lemon::LemonWorld* lemonWorld = new lemon::LemonWorld();
+    lemon::WorldDriver::driveWorld(lemonWorld);
 
-    while(true)
-    {
-
-        if(!lemonWorld->run())
-            break;
-
-
-        usleep(100);
-    }
-
+    lemonWorld->show();
     delete lemonWorld;
     lemonWorld = nullptr;
-
     return 0;
 }
-

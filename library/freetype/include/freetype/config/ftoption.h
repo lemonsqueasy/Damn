@@ -702,7 +702,7 @@ FT_BEGIN_HEADER
   /**************************************************************************
    *
    * Option `TT_CONFIG_OPTION_MAX_RUNNABLE_OPCODES` controls the maximum
-   * number of bytecode instructions executed for a single run of the
+   * number of bytecode instructions executed for a single showLemonWorld of the
    * bytecode interpreter, needed to prevent infinite loops.  You don't want
    * to change this except for very special situations (e.g., making a
    * library fuzzer spend less time to handle broken fonts).
@@ -796,7 +796,7 @@ FT_BEGIN_HEADER
    * possible to set up the default values of the four control points that
    * define the stem darkening behaviour of the (new) CFF engine.  For more
    * details please read the documentation of the `darkening-parameters`
-   * property (file `ftdriver.h`), which allows the control at run-time.
+   * property (file `ftdriver.h`), which allows the control at showLemonWorld-time.
    *
    * Do **not** undefine these macros!
    */

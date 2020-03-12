@@ -44,7 +44,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/library/irrlicht_1.8.4/include"/>
+					<Add directory="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/library/irrlicht/include"/>
 					<Add directory="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/library/irrklang/include"/>
 					<Add directory="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/library/bullet3/include"/>
 					<Add directory="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/library/freetype/include"/>
@@ -70,7 +70,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/library/irrlicht_1.8.4/include"/>
+					<Add directory="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/library/irrlicht/include"/>
 					<Add directory="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/library/irrklang/include"/>
 					<Add directory="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/library/bullet3/include"/>
 					<Add directory="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/library/freetype/include"/>
@@ -117,10 +117,22 @@
 		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/GraphicWorld/GUIDisplayer/TextDisplayer.h">
 			<Option target="Damn"/>
 		</Unit>
+		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/GraphicWorld/GraphicObject.cpp">
+			<Option target="Damn"/>
+		</Unit>
+		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/GraphicWorld/GraphicObject.h">
+			<Option target="Damn"/>
+		</Unit>
 		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/GraphicWorld/GraphicWorld.cpp">
 			<Option target="Damn"/>
 		</Unit>
 		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/GraphicWorld/GraphicWorld.h">
+			<Option target="Damn"/>
+		</Unit>
+		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/LemonWorld/IdCreator.cpp">
+			<Option target="Damn"/>
+		</Unit>
+		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/LemonWorld/IdCreator.h">
 			<Option target="Damn"/>
 		</Unit>
 		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/LemonWorld/LemonObject.cpp">
@@ -135,16 +147,25 @@
 		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/LemonWorld/LemonWorld.h">
 			<Option target="Damn"/>
 		</Unit>
-		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/PhysicsWorld/PhysicsWorld.cpp">
+		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/PhysicalWorld/PhysicalObject.cpp">
 			<Option target="Damn"/>
 		</Unit>
-		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/PhysicsWorld/PhysicsWorld.h">
+		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/PhysicalWorld/PhysicalObject.h">
 			<Option target="Damn"/>
 		</Unit>
-		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/Tools/tools.cpp">
+		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/PhysicalWorld/PhysicalWorld.cpp">
 			<Option target="Damn"/>
 		</Unit>
-		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/Tools/tools.h">
+		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/PhysicalWorld/PhysicalWorld.h">
+			<Option target="Damn"/>
+		</Unit>
+		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/ToolsAndStructs/structs.h">
+			<Option target="Damn"/>
+		</Unit>
+		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/ToolsAndStructs/tools.cpp">
+			<Option target="Damn"/>
+		</Unit>
+		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/ToolsAndStructs/tools.h">
 			<Option target="Damn"/>
 		</Unit>
 		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/main.cpp">
