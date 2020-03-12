@@ -1,3 +1,0 @@
-/Users/monle/Documents/OSXProjects/CLionProjects/Damn/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/monle/Documents/OSXProjects/CLionProjects/Damn/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/monle/Documents/OSXProjects/CLionProjects/Damn/cmake-build-debug/CMakeFiles/Damn.dir
