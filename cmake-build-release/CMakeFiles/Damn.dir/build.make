@@ -174,18 +174,57 @@ CMakeFiles/Damn.dir/src/LemonWorld/WorldDriver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Damn.dir/src/LemonWorld/WorldDriver.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/LemonWorld/WorldDriver.cpp -o CMakeFiles/Damn.dir/src/LemonWorld/WorldDriver.cpp.s
 
-CMakeFiles/Damn.dir/src/LemonWorld/LemonObject.cpp.o: CMakeFiles/Damn.dir/flags.make
-CMakeFiles/Damn.dir/src/LemonWorld/LemonObject.cpp.o: ../src/LemonWorld/LemonObject.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/monle/Documents/OSXProjects/CLionProjects/Damn/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Damn.dir/src/LemonWorld/LemonObject.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Damn.dir/src/LemonWorld/LemonObject.cpp.o -c /Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/LemonWorld/LemonObject.cpp
+CMakeFiles/Damn.dir/src/LemonWorld/LemonRigidObject.cpp.o: CMakeFiles/Damn.dir/flags.make
+CMakeFiles/Damn.dir/src/LemonWorld/LemonRigidObject.cpp.o: ../src/LemonWorld/LemonRigidObject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/monle/Documents/OSXProjects/CLionProjects/Damn/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Damn.dir/src/LemonWorld/LemonRigidObject.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Damn.dir/src/LemonWorld/LemonRigidObject.cpp.o -c /Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/LemonWorld/LemonRigidObject.cpp
 
-CMakeFiles/Damn.dir/src/LemonWorld/LemonObject.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Damn.dir/src/LemonWorld/LemonObject.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/LemonWorld/LemonObject.cpp > CMakeFiles/Damn.dir/src/LemonWorld/LemonObject.cpp.i
+CMakeFiles/Damn.dir/src/LemonWorld/LemonRigidObject.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Damn.dir/src/LemonWorld/LemonRigidObject.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/LemonWorld/LemonRigidObject.cpp > CMakeFiles/Damn.dir/src/LemonWorld/LemonRigidObject.cpp.i
 
-CMakeFiles/Damn.dir/src/LemonWorld/LemonObject.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Damn.dir/src/LemonWorld/LemonObject.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/LemonWorld/LemonObject.cpp -o CMakeFiles/Damn.dir/src/LemonWorld/LemonObject.cpp.s
+CMakeFiles/Damn.dir/src/LemonWorld/LemonRigidObject.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Damn.dir/src/LemonWorld/LemonRigidObject.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/LemonWorld/LemonRigidObject.cpp -o CMakeFiles/Damn.dir/src/LemonWorld/LemonRigidObject.cpp.s
+
+CMakeFiles/Damn.dir/src/LemonWorldObjects/Board.cpp.o: CMakeFiles/Damn.dir/flags.make
+CMakeFiles/Damn.dir/src/LemonWorldObjects/Board.cpp.o: ../src/LemonWorldObjects/Board.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/monle/Documents/OSXProjects/CLionProjects/Damn/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Damn.dir/src/LemonWorldObjects/Board.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Damn.dir/src/LemonWorldObjects/Board.cpp.o -c /Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/LemonWorldObjects/Board.cpp
+
+CMakeFiles/Damn.dir/src/LemonWorldObjects/Board.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Damn.dir/src/LemonWorldObjects/Board.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/LemonWorldObjects/Board.cpp > CMakeFiles/Damn.dir/src/LemonWorldObjects/Board.cpp.i
+
+CMakeFiles/Damn.dir/src/LemonWorldObjects/Board.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Damn.dir/src/LemonWorldObjects/Board.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/LemonWorldObjects/Board.cpp -o CMakeFiles/Damn.dir/src/LemonWorldObjects/Board.cpp.s
+
+CMakeFiles/Damn.dir/src/LemonWorldObjects/Brick.cpp.o: CMakeFiles/Damn.dir/flags.make
+CMakeFiles/Damn.dir/src/LemonWorldObjects/Brick.cpp.o: ../src/LemonWorldObjects/Brick.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/monle/Documents/OSXProjects/CLionProjects/Damn/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Damn.dir/src/LemonWorldObjects/Brick.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Damn.dir/src/LemonWorldObjects/Brick.cpp.o -c /Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/LemonWorldObjects/Brick.cpp
+
+CMakeFiles/Damn.dir/src/LemonWorldObjects/Brick.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Damn.dir/src/LemonWorldObjects/Brick.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/LemonWorldObjects/Brick.cpp > CMakeFiles/Damn.dir/src/LemonWorldObjects/Brick.cpp.i
+
+CMakeFiles/Damn.dir/src/LemonWorldObjects/Brick.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Damn.dir/src/LemonWorldObjects/Brick.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/LemonWorldObjects/Brick.cpp -o CMakeFiles/Damn.dir/src/LemonWorldObjects/Brick.cpp.s
+
+CMakeFiles/Damn.dir/src/LemonWorldObjects/Ball.cpp.o: CMakeFiles/Damn.dir/flags.make
+CMakeFiles/Damn.dir/src/LemonWorldObjects/Ball.cpp.o: ../src/LemonWorldObjects/Ball.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/monle/Documents/OSXProjects/CLionProjects/Damn/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Damn.dir/src/LemonWorldObjects/Ball.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Damn.dir/src/LemonWorldObjects/Ball.cpp.o -c /Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/LemonWorldObjects/Ball.cpp
+
+CMakeFiles/Damn.dir/src/LemonWorldObjects/Ball.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Damn.dir/src/LemonWorldObjects/Ball.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/LemonWorldObjects/Ball.cpp > CMakeFiles/Damn.dir/src/LemonWorldObjects/Ball.cpp.i
+
+CMakeFiles/Damn.dir/src/LemonWorldObjects/Ball.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Damn.dir/src/LemonWorldObjects/Ball.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/LemonWorldObjects/Ball.cpp -o CMakeFiles/Damn.dir/src/LemonWorldObjects/Ball.cpp.s
 
 # Object files for target Damn
 Damn_OBJECTS = \
@@ -198,7 +237,10 @@ Damn_OBJECTS = \
 "CMakeFiles/Damn.dir/src/LemonWorld/LemonWorld.cpp.o" \
 "CMakeFiles/Damn.dir/src/test/testMain.cpp.o" \
 "CMakeFiles/Damn.dir/src/LemonWorld/WorldDriver.cpp.o" \
-"CMakeFiles/Damn.dir/src/LemonWorld/LemonObject.cpp.o"
+"CMakeFiles/Damn.dir/src/LemonWorld/LemonRigidObject.cpp.o" \
+"CMakeFiles/Damn.dir/src/LemonWorldObjects/Board.cpp.o" \
+"CMakeFiles/Damn.dir/src/LemonWorldObjects/Brick.cpp.o" \
+"CMakeFiles/Damn.dir/src/LemonWorldObjects/Ball.cpp.o"
 
 # External object files for target Damn
 Damn_EXTERNAL_OBJECTS =
@@ -212,10 +254,13 @@ Damn: CMakeFiles/Damn.dir/src/LemonWorld/GUIDisplayer/TextDisplayer.cpp.o
 Damn: CMakeFiles/Damn.dir/src/LemonWorld/LemonWorld.cpp.o
 Damn: CMakeFiles/Damn.dir/src/test/testMain.cpp.o
 Damn: CMakeFiles/Damn.dir/src/LemonWorld/WorldDriver.cpp.o
-Damn: CMakeFiles/Damn.dir/src/LemonWorld/LemonObject.cpp.o
+Damn: CMakeFiles/Damn.dir/src/LemonWorld/LemonRigidObject.cpp.o
+Damn: CMakeFiles/Damn.dir/src/LemonWorldObjects/Board.cpp.o
+Damn: CMakeFiles/Damn.dir/src/LemonWorldObjects/Brick.cpp.o
+Damn: CMakeFiles/Damn.dir/src/LemonWorldObjects/Ball.cpp.o
 Damn: CMakeFiles/Damn.dir/build.make
 Damn: CMakeFiles/Damn.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/monle/Documents/OSXProjects/CLionProjects/Damn/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable Damn"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/monle/Documents/OSXProjects/CLionProjects/Damn/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable Damn"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Damn.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

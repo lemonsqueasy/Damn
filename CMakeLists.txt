@@ -57,7 +57,7 @@ add_executable(${PROJECT_NAME}
         src/LemonWorld/GUIDisplayer/GUIDisplayer.h
         src/LemonWorld/GUIDisplayer/TextDisplayer.cpp
         src/LemonWorld/GUIDisplayer/TextDisplayer.h
-        src/LemonWorld/LemonWorld.cpp src/LemonWorld/LemonWorld.h src/test/testMain.cpp src/LemonWorld/WorldDriver.cpp src/LemonWorld/WorldDriver.h src/LemonWorld/LemonObject.cpp src/LemonWorld/LemonObject.h)
+        src/LemonWorld/LemonWorld.cpp src/LemonWorld/LemonWorld.h src/test/testMain.cpp src/LemonWorld/WorldDriver.cpp src/LemonWorld/WorldDriver.h src/LemonWorld/LemonRigidObject.cpp src/LemonWorld/LemonRigidObject.h src/LemonWorldObjects/Board.cpp src/LemonWorldObjects/Board.h src/LemonWorldObjects/Brick.cpp src/LemonWorldObjects/Brick.h src/LemonWorldObjects/Ball.cpp src/LemonWorldObjects/Ball.h)
 
 target_link_libraries(${PROJECT_NAME} -lIrrlicht)
 target_link_libraries(${PROJECT_NAME} -lBullet)

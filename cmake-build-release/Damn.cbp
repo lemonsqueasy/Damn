@@ -119,10 +119,10 @@
 		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/LemonWorld/GUIDisplayer/TextDisplayer.h">
 			<Option target="Damn"/>
 		</Unit>
-		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/LemonWorld/LemonObject.cpp">
+		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/LemonWorld/LemonRigidObject.cpp">
 			<Option target="Damn"/>
 		</Unit>
-		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/LemonWorld/LemonObject.h">
+		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/LemonWorld/LemonRigidObject.h">
 			<Option target="Damn"/>
 		</Unit>
 		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/LemonWorld/LemonWorld.cpp">
@@ -135,6 +135,24 @@
 			<Option target="Damn"/>
 		</Unit>
 		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/LemonWorld/WorldDriver.h">
+			<Option target="Damn"/>
+		</Unit>
+		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/LemonWorldObjects/Ball.cpp">
+			<Option target="Damn"/>
+		</Unit>
+		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/LemonWorldObjects/Ball.h">
+			<Option target="Damn"/>
+		</Unit>
+		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/LemonWorldObjects/Board.cpp">
+			<Option target="Damn"/>
+		</Unit>
+		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/LemonWorldObjects/Board.h">
+			<Option target="Damn"/>
+		</Unit>
+		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/LemonWorldObjects/Brick.cpp">
+			<Option target="Damn"/>
+		</Unit>
+		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/LemonWorldObjects/Brick.h">
 			<Option target="Damn"/>
 		</Unit>
 		<Unit filename="/Users/monle/Documents/OSXProjects/CLionProjects/Damn/src/ToolsAndStructs/structs.h">

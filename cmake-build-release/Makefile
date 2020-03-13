@@ -231,32 +231,32 @@ src/LemonWorld/GUIDisplayer/TextDisplayer.cpp.s:
 	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/src/LemonWorld/GUIDisplayer/TextDisplayer.cpp.s
 .PHONY : src/LemonWorld/GUIDisplayer/TextDisplayer.cpp.s
 
-src/LemonWorld/LemonObject.o: src/LemonWorld/LemonObject.cpp.o
+src/LemonWorld/LemonRigidObject.o: src/LemonWorld/LemonRigidObject.cpp.o
 
-.PHONY : src/LemonWorld/LemonObject.o
+.PHONY : src/LemonWorld/LemonRigidObject.o
 
 # target to build an object file
-src/LemonWorld/LemonObject.cpp.o:
-	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/src/LemonWorld/LemonObject.cpp.o
-.PHONY : src/LemonWorld/LemonObject.cpp.o
+src/LemonWorld/LemonRigidObject.cpp.o:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/src/LemonWorld/LemonRigidObject.cpp.o
+.PHONY : src/LemonWorld/LemonRigidObject.cpp.o
 
-src/LemonWorld/LemonObject.i: src/LemonWorld/LemonObject.cpp.i
+src/LemonWorld/LemonRigidObject.i: src/LemonWorld/LemonRigidObject.cpp.i
 
-.PHONY : src/LemonWorld/LemonObject.i
+.PHONY : src/LemonWorld/LemonRigidObject.i
 
 # target to preprocess a source file
-src/LemonWorld/LemonObject.cpp.i:
-	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/src/LemonWorld/LemonObject.cpp.i
-.PHONY : src/LemonWorld/LemonObject.cpp.i
+src/LemonWorld/LemonRigidObject.cpp.i:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/src/LemonWorld/LemonRigidObject.cpp.i
+.PHONY : src/LemonWorld/LemonRigidObject.cpp.i
 
-src/LemonWorld/LemonObject.s: src/LemonWorld/LemonObject.cpp.s
+src/LemonWorld/LemonRigidObject.s: src/LemonWorld/LemonRigidObject.cpp.s
 
-.PHONY : src/LemonWorld/LemonObject.s
+.PHONY : src/LemonWorld/LemonRigidObject.s
 
 # target to generate assembly for a file
-src/LemonWorld/LemonObject.cpp.s:
-	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/src/LemonWorld/LemonObject.cpp.s
-.PHONY : src/LemonWorld/LemonObject.cpp.s
+src/LemonWorld/LemonRigidObject.cpp.s:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/src/LemonWorld/LemonRigidObject.cpp.s
+.PHONY : src/LemonWorld/LemonRigidObject.cpp.s
 
 src/LemonWorld/LemonWorld.o: src/LemonWorld/LemonWorld.cpp.o
 
@@ -311,6 +311,87 @@ src/LemonWorld/WorldDriver.s: src/LemonWorld/WorldDriver.cpp.s
 src/LemonWorld/WorldDriver.cpp.s:
 	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/src/LemonWorld/WorldDriver.cpp.s
 .PHONY : src/LemonWorld/WorldDriver.cpp.s
+
+src/LemonWorldObjects/Ball.o: src/LemonWorldObjects/Ball.cpp.o
+
+.PHONY : src/LemonWorldObjects/Ball.o
+
+# target to build an object file
+src/LemonWorldObjects/Ball.cpp.o:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/src/LemonWorldObjects/Ball.cpp.o
+.PHONY : src/LemonWorldObjects/Ball.cpp.o
+
+src/LemonWorldObjects/Ball.i: src/LemonWorldObjects/Ball.cpp.i
+
+.PHONY : src/LemonWorldObjects/Ball.i
+
+# target to preprocess a source file
+src/LemonWorldObjects/Ball.cpp.i:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/src/LemonWorldObjects/Ball.cpp.i
+.PHONY : src/LemonWorldObjects/Ball.cpp.i
+
+src/LemonWorldObjects/Ball.s: src/LemonWorldObjects/Ball.cpp.s
+
+.PHONY : src/LemonWorldObjects/Ball.s
+
+# target to generate assembly for a file
+src/LemonWorldObjects/Ball.cpp.s:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/src/LemonWorldObjects/Ball.cpp.s
+.PHONY : src/LemonWorldObjects/Ball.cpp.s
+
+src/LemonWorldObjects/Board.o: src/LemonWorldObjects/Board.cpp.o
+
+.PHONY : src/LemonWorldObjects/Board.o
+
+# target to build an object file
+src/LemonWorldObjects/Board.cpp.o:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/src/LemonWorldObjects/Board.cpp.o
+.PHONY : src/LemonWorldObjects/Board.cpp.o
+
+src/LemonWorldObjects/Board.i: src/LemonWorldObjects/Board.cpp.i
+
+.PHONY : src/LemonWorldObjects/Board.i
+
+# target to preprocess a source file
+src/LemonWorldObjects/Board.cpp.i:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/src/LemonWorldObjects/Board.cpp.i
+.PHONY : src/LemonWorldObjects/Board.cpp.i
+
+src/LemonWorldObjects/Board.s: src/LemonWorldObjects/Board.cpp.s
+
+.PHONY : src/LemonWorldObjects/Board.s
+
+# target to generate assembly for a file
+src/LemonWorldObjects/Board.cpp.s:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/src/LemonWorldObjects/Board.cpp.s
+.PHONY : src/LemonWorldObjects/Board.cpp.s
+
+src/LemonWorldObjects/Brick.o: src/LemonWorldObjects/Brick.cpp.o
+
+.PHONY : src/LemonWorldObjects/Brick.o
+
+# target to build an object file
+src/LemonWorldObjects/Brick.cpp.o:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/src/LemonWorldObjects/Brick.cpp.o
+.PHONY : src/LemonWorldObjects/Brick.cpp.o
+
+src/LemonWorldObjects/Brick.i: src/LemonWorldObjects/Brick.cpp.i
+
+.PHONY : src/LemonWorldObjects/Brick.i
+
+# target to preprocess a source file
+src/LemonWorldObjects/Brick.cpp.i:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/src/LemonWorldObjects/Brick.cpp.i
+.PHONY : src/LemonWorldObjects/Brick.cpp.i
+
+src/LemonWorldObjects/Brick.s: src/LemonWorldObjects/Brick.cpp.s
+
+.PHONY : src/LemonWorldObjects/Brick.s
+
+# target to generate assembly for a file
+src/LemonWorldObjects/Brick.cpp.s:
+	$(MAKE) -f CMakeFiles/Damn.dir/build.make CMakeFiles/Damn.dir/src/LemonWorldObjects/Brick.cpp.s
+.PHONY : src/LemonWorldObjects/Brick.cpp.s
 
 src/ToolsAndStructs/tools.o: src/ToolsAndStructs/tools.cpp.o
 
@@ -414,15 +495,24 @@ help:
 	@echo "... src/LemonWorld/GUIDisplayer/TextDisplayer.o"
 	@echo "... src/LemonWorld/GUIDisplayer/TextDisplayer.i"
 	@echo "... src/LemonWorld/GUIDisplayer/TextDisplayer.s"
-	@echo "... src/LemonWorld/LemonObject.o"
-	@echo "... src/LemonWorld/LemonObject.i"
-	@echo "... src/LemonWorld/LemonObject.s"
+	@echo "... src/LemonWorld/LemonRigidObject.o"
+	@echo "... src/LemonWorld/LemonRigidObject.i"
+	@echo "... src/LemonWorld/LemonRigidObject.s"
 	@echo "... src/LemonWorld/LemonWorld.o"
 	@echo "... src/LemonWorld/LemonWorld.i"
 	@echo "... src/LemonWorld/LemonWorld.s"
 	@echo "... src/LemonWorld/WorldDriver.o"
 	@echo "... src/LemonWorld/WorldDriver.i"
 	@echo "... src/LemonWorld/WorldDriver.s"
+	@echo "... src/LemonWorldObjects/Ball.o"
+	@echo "... src/LemonWorldObjects/Ball.i"
+	@echo "... src/LemonWorldObjects/Ball.s"
+	@echo "... src/LemonWorldObjects/Board.o"
+	@echo "... src/LemonWorldObjects/Board.i"
+	@echo "... src/LemonWorldObjects/Board.s"
+	@echo "... src/LemonWorldObjects/Brick.o"
+	@echo "... src/LemonWorldObjects/Brick.i"
+	@echo "... src/LemonWorldObjects/Brick.s"
 	@echo "... src/ToolsAndStructs/tools.o"
 	@echo "... src/ToolsAndStructs/tools.i"
 	@echo "... src/ToolsAndStructs/tools.s"

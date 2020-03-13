@@ -50,7 +50,7 @@ public:
 		predictedOrn.safeNormalize();
 	#else
 		//Exponential map
-		//google for "Practical Parameterization of Rotations Using the Exponential Map", F. Sebastian Grassia
+		//google for "Practical Parameterization of Rotations Using the Exponential Board", F. Sebastian Grassia
 
 		btVector3 axis;
 		btScalar	fAngle2 = angvel.length2();

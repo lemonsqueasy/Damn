@@ -27,7 +27,7 @@ namespace scene
 		//! Maya .obj static model
 		EAMT_OBJ,
 
-		//! Quake 3 .bsp static Map
+		//! Quake 3 .bsp static Board
 		EAMT_BSP,
 
 		//! 3D Studio .3ds file

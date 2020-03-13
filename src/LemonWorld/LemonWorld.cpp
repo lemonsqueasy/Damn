@@ -15,6 +15,7 @@ namespace lemon
         createSkyBox();
         addLights();
         initPhysicsWorld();
+        setGravity(irr::core::vector3df(GRAVITY_OF_PHYSICSWORLD_X, GRAVITY_OF_PHYSICSWORLD_Y, GRAVITY_OF_PHYSICSWORLD_Z));
 
     }
 
@@ -31,7 +32,7 @@ namespace lemon
         this->eventReceiver = new EventReceiver();
         this->irrlichtDevice = irr::createDevice(
                 irr::video::EDT_OPENGL,
-                irr::core::dimension2d<irr::u32>(1920, 1080),
+                irr::core::dimension2d<irr::u32>(640, 480),
                 16,
                 true,
                 false,
@@ -71,7 +72,7 @@ namespace lemon
         this->iCameraSceneNode = this->iSceneManager->addCameraSceneNodeFPS(
             0,
             30,
-            0,
+            0.01,
             -1,
             nullptr,
             0,
@@ -79,6 +80,8 @@ namespace lemon
             0,
             false
         );
+        this->iCameraSceneNode->setPosition({30, 30, 0});
+        this->iCameraSceneNode->setTarget({0, 30, 0});
         if(this->iCameraSceneNode)
             return true;
         return false;
@@ -107,27 +110,27 @@ namespace lemon
 
         this->iLightSceneNode1 = this->iSceneManager->addLightSceneNode(
                 0,
-                irr::core::vector3df(1500,1500,1500),
+                irr::core::vector3df(HALF_SIZE_OF_LIGHTS,HALF_SIZE_OF_LIGHTS,HALF_SIZE_OF_LIGHTS),
                 irr::video::SColorf(255, 255, 255, 0),
-                15.0f
+                RADIUS_OF_LIGHTS
         );
         this->iLightSceneNode2 = this->iSceneManager->addLightSceneNode(
                 0,
-                irr::core::vector3df(-1500,1500,1500),
+                irr::core::vector3df(-HALF_SIZE_OF_LIGHTS,HALF_SIZE_OF_LIGHTS,HALF_SIZE_OF_LIGHTS),
                 irr::video::SColorf(255, 255, 255, 0),
-                15.0f
+                RADIUS_OF_LIGHTS
         );
         this->iLightSceneNode3 = this->iSceneManager->addLightSceneNode(
                 0,
-                irr::core::vector3df(1500,1500,-1500),
+                irr::core::vector3df(HALF_SIZE_OF_LIGHTS,HALF_SIZE_OF_LIGHTS,-HALF_SIZE_OF_LIGHTS),
                 irr::video::SColorf(255, 255, 255, 0),
-                15.0f
+                RADIUS_OF_LIGHTS
         );
         this->iLightSceneNode4 = this->iSceneManager->addLightSceneNode(
                 0,
-                irr::core::vector3df(-1500,1500,-1500),
+                irr::core::vector3df(-HALF_SIZE_OF_LIGHTS,HALF_SIZE_OF_LIGHTS,-HALF_SIZE_OF_LIGHTS),
                 irr::video::SColorf(255, 255, 255, 0),
-                15.0f
+                RADIUS_OF_LIGHTS
         );
         if(this->iLightSceneNode1 && this->iLightSceneNode2 && this->iLightSceneNode3 && this->iLightSceneNode4)
             return true;
@@ -161,10 +164,18 @@ namespace lemon
     {
         if(!this->irrlichtDevice)
             return false;
-        this->physicsWorld = createIrrBulletWorld(this->irrlichtDevice, false, false);
+        this->physicsWorld = createIrrBulletWorld(this->irrlichtDevice, true, false);
         if(this->physicsWorld)
             return true;
         return false;
+    }
+
+    bool LemonWorld::setGravity(irr::core::vector3df gravity)
+    {
+        if(!this->physicsWorld)
+            return false;
+        this->physicsWorld->setGravity(gravity);
+        return true;
     }
 
 
@@ -179,7 +190,7 @@ namespace lemon
     {
         while(true)
         {
-            this->physicsWorld->stepSimulation(0.0001f, 120);
+            this->physicsWorld->stepSimulation(100*0.000002f, 120);
             if(this->eventReceiver->IsKeyDown(irr::KEY_ESCAPE))
                 break;
             usleep(100);
@@ -189,6 +200,57 @@ namespace lemon
     void LemonWorld::simulate()
     {
         this->physicsLoop();
+    }
+
+    bool LemonWorld::addLemonRigidObject(LemonRigidObject *lemonRigidObject)
+    {
+        irr::scene::IMesh* iMesh = this->iSceneManager->getMesh(lemonRigidObject->getMeshPath());
+
+        irr::scene::IMeshSceneNode* iMeshSceneNode = this->iSceneManager->addMeshSceneNode(
+                iMesh,
+                0,
+                -1,
+                lemonRigidObject->getInitPosition(),
+                lemonRigidObject->getInitRotition(),
+                lemonRigidObject->getInitScale()
+                );
+        if(lemonRigidObject->isSelfLight())
+        {
+            iMeshSceneNode->setMaterialFlag(irr::video::EMF_LIGHTING, false);
+        }
+
+        IGImpactMeshShape* igImpactMeshShape = new IGImpactMeshShape(iMeshSceneNode, iMesh, lemonRigidObject->getMass());
+        IRigidBody* iRigidBody = this->physicsWorld->addRigidBody(igImpactMeshShape);
+        iRigidBody->setActivationState(EActivationState::EAS_DISABLE_DEACTIVATION);
+        lemonRigidObject->completeOb(
+                iMesh,
+                iMeshSceneNode,
+                igImpactMeshShape,
+                iRigidBody
+                );
+        this->vectorForLemonRigidObjects.push_back(lemonRigidObject);
+        return true;
+    }
+
+    void LemonWorld::actionLoop()
+    {
+        while(true)
+        {
+            this->iteratorForLemonRigidObjects = this->vectorForLemonRigidObjects.begin();
+            for(; this->iteratorForLemonRigidObjects != this->vectorForLemonRigidObjects.end(); ++this->iteratorForLemonRigidObjects)
+            {
+                (*this->iteratorForLemonRigidObjects)->onAction();
+            }
+
+            if(this->eventReceiver->IsKeyDown(irr::KEY_ESCAPE))
+                break;
+            usleep(1000);
+        }
+    }
+
+    void LemonWorld::action()
+    {
+        this->actionLoop();
     }
 
 }

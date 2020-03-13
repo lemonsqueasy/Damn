@@ -266,7 +266,7 @@
  *
  * Irrlicht can load a lot of file formats automaticly, see irr::scene::ISceneManager::getMesh()
  * for a detailed list. So if you would like to replace the simple blue screen background by
- * a cool Quake 3 Map, optimized by an octree, just insert this code
+ * a cool Quake 3 Board, optimized by an octree, just insert this code
  * somewhere before the while loop:
  *
  * \code

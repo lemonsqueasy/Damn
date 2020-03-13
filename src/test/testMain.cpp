@@ -67,18 +67,20 @@
 //    irr::scene::IMesh* peopleMesh = smgr->getMesh("/Users/monle/Documents/OSXProjects/CLionProjects/Damn/media/ships/ship1.obj");
 //    irr::scene::IMeshSceneNode* peopleNode = smgr->addMeshSceneNode(peopleMesh);
 //    peopleNode->setScale(irr::core::vector3df(0.005, 0.005, 0.005));
+//
 //    irr::scene::IMeshSceneNode* peopleNodeNoVisi = smgr->addMeshSceneNode(peopleMesh);
+//    peopleNodeNoVisi->setPosition({0,100,0});
 //    peopleNodeNoVisi->setScale(irr::core::vector3df(0.005, 0.005, 0.005));
 //    peopleNodeNoVisi->setVisible(false);
 //    peopleNode->setMaterialFlag(irr::video::EMF_LIGHTING, false);
-//    peopleNode->setPosition(irr::core::vector3df(0, 100, 0));
-//    peopleNode->setPosition(irr::core::vector3df(0, 100, 0));
+//    peopleNode->setPosition(irr::core::vector3df(0, 0, 0));
 //
 //    //IGImpactMeshShape* phPeopleMeshShape = new IGImpactMeshShape(peopleNode, peopleMesh, 1);
 //    //IBoxShape* phPeopleMeshShape = new IBoxShape(peopleNode, 1);
 //    ISphereShape* phPeopleMeshShape = new ISphereShape(peopleNodeNoVisi,1);
 //    IRigidBody* ppRigidBody = physicsWorld->addRigidBody(phPeopleMeshShape);
 //    ppRigidBody->setActivationState(EActivationState::EAS_DISABLE_DEACTIVATION);
+//    ppRigidBody->getWorldTransform().setTranslation({0,100,0});
 //
 //    //IKinematicCharacterController* iCharacter = new IKinematicCharacterController(physicsWorld);
 //    //iCharacter->getWorldTransform().setTranslation(irr::core::vector3df(0, 100, 0));
@@ -151,11 +153,20 @@
 //        }
 //        else if(eventReceiver->IsKeyDown(irr::KEY_KEY_A))
 //        {
-//
+//            irr::core::CMatrix4<float> transform = mapRigidBody->getWorldTransform();
+//            transform.setRotationDegrees({-2,0,0});
+//            mapRigidBody->setWorldTransform(transform);
+//            mapNode->setRotation({-2, 0, 0});
 //
 //        }
 //        else if(eventReceiver->IsKeyDown(irr::KEY_KEY_D))
 //        {
+//
+//            irr::core::CMatrix4<float> transform = mapRigidBody->getWorldTransform();
+//            transform.setRotationDegrees({2,0,0});
+//            mapRigidBody->setWorldTransform(transform);
+//            mapNode->setRotation({2, 0, 0});
+//
 //
 //
 //        }

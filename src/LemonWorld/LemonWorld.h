@@ -8,6 +8,8 @@
 #include "irrlicht.h"
 #include "EventReceiver.h"
 #include "irrBullet.h"
+#include "LemonRigidObject.h"
+#include <vector>
 
 namespace lemon
 {
@@ -18,16 +20,24 @@ namespace lemon
         ~LemonWorld();
         void show();
         void simulate();
+        void action();
+        bool setGravity(irr::core::vector3df gravity);
+        bool addLemonRigidObject(LemonRigidObject* lemonRigidObject);
 
 
     private:
-        static constexpr float FAR_VALUE_OF_CAMERA = 300000;//摄像机观察距离
-        static constexpr float INIT_POSITION_OF_CAMERA_X = 40;
-        static constexpr float INIT_POSITION_OF_CAMERA_Y = 40;
+        static constexpr float FAR_VALUE_OF_CAMERA = 300000.f;//摄像机观察距离
+        static constexpr float INIT_POSITION_OF_CAMERA_X = 40.f;
+        static constexpr float INIT_POSITION_OF_CAMERA_Y = 40.f;
         static constexpr float INIT_POSITION_OF_CAMERA_Z = 0;
         static constexpr float INIT_TARGET_OF_CAMERA_X = 0;
         static constexpr float INIT_TARGET_OF_CAMERA_Y = 0;
         static constexpr float INIT_TARGET_OF_CAMERA_Z = 0;
+        static constexpr float HALF_SIZE_OF_LIGHTS = 1500.f;
+        static constexpr float RADIUS_OF_LIGHTS = 18.f;
+        static constexpr float GRAVITY_OF_PHYSICSWORLD_X = 0;
+        static constexpr float GRAVITY_OF_PHYSICSWORLD_Y = -9.8f;
+        static constexpr float GRAVITY_OF_PHYSICSWORLD_Z = 0;
 
         irr::IrrlichtDevice* irrlichtDevice;//鬼火设备
         irr::video::IVideoDriver* iVideoDriver;//图形驱动抽象
@@ -40,7 +50,8 @@ namespace lemon
         irr::scene::ILightSceneNode* iLightSceneNode4;//灯光
         irrBulletWorld* physicsWorld;//世界的物理抽象
 
-
+        std::vector<LemonRigidObject*> vectorForLemonRigidObjects;
+        std::vector<LemonRigidObject*>::iterator iteratorForLemonRigidObjects;
 
 
         bool initGraphicWorld();
@@ -52,6 +63,7 @@ namespace lemon
         bool initPhysicsWorld();
         bool destroyPhysicsWorld();
         void physicsLoop();
+        void actionLoop();
 
 
 

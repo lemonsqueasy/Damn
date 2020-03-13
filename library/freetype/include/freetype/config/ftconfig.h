@@ -126,7 +126,7 @@ FT_BEGIN_HEADER
    *
    * These macros are computed from the ones defined above.  Don't touch
    * their definition, unless you know precisely what you are doing.  No
-   * porter should need to mess with them.
+   * porter should need to mass with them.
    *
    */
 

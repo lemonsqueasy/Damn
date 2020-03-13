@@ -211,7 +211,7 @@ public:
         factor to zero (0.0) so that it will no longer rotate based on forces. Useful for character
         controllers and a few other uses. (For instance, tracer bullets or bombs where you
         align the object based on the velocity of the rigid body, and you don't want angular
-        velocity to mess up the effect.)
+        velocity to mass up the effect.)
 
         With this you can also slow down or speed up an object's angular movement.
     */

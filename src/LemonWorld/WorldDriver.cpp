@@ -3,8 +3,10 @@
 //
 
 #include "WorldDriver.h"
+#include "../LemonWorldObjects/Brick.h"
 #include <pthread.h>
-#include <iostream>
+#include <unistd.h>
+
 
 namespace lemon
 {
@@ -13,6 +15,12 @@ namespace lemon
         pthread_t* physicsThread = new pthread_t;
         pthread_create(physicsThread, nullptr, reinterpret_cast<void *(*)(void *)>(thread1Func), (void*)lemonWorld);
         pthread_detach(*physicsThread);
+
+        pthread_t* actionThread = new pthread_t;
+        pthread_create(actionThread, nullptr, reinterpret_cast<void *(*)(void *)>(thread2Func), (void*)lemonWorld);
+        pthread_detach(*actionThread);
+
+
     }
 
     void * WorldDriver::thread1Func(LemonWorld *lemonWorld)
@@ -23,6 +31,7 @@ namespace lemon
 
     void * WorldDriver::thread2Func(LemonWorld *lemonWorld)
     {
+        lemonWorld->action();
         return nullptr;
     }
 
